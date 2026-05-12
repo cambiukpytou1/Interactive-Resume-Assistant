@@ -18,6 +18,7 @@ export async function GET() {
     role_count: data.roles.length,
     project_count: data.projects.length,
     chunk_count: chunks.length,
+    config_warnings: runtime.configWarnings,
     checked_at: new Date().toISOString()
   });
 }
