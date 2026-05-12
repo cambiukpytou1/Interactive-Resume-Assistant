@@ -13,7 +13,7 @@ export function FooterCta() {
         </div>
         <div className="grid gap-3 self-start">
           <a
-            href="https://www.linkedin.com/in/[your-linkedin-handle]"
+            href="https://www.linkedin.com/in/igoryezhov"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-2xl bg-white px-4 py-3 text-center text-sm font-semibold text-slate-950 transition hover:bg-slate-100"
