@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "profile-summary",
+    "chunkType": "profile_summary",
+    "title": "Profile summary",
+    "text": "Igor Yezhov. Igor Yezhov is a director-level enterprise leader with 16 years of experience spanning analytics, governance, automation, and applied AI workflows across financial services, healthcare, government, insurance, and technology. Igor leads analytics modernization, intelligent automation, and governance-aware workflow transformation. His experience blends enterprise controls, operating-model design, data and reporting modernization, prompt engineering, modular agent concepts, and practical AI-assisted workflow development.",
+    "sourceRecordId": "igor_yezhov_profile",
+    "sourceStatus": "canonical_profile",
+    "publicSafe": true,
+    "tags": [
+      "profile",
+      "summary",
+      "experience"
+    ],
+    "priority": 10
+  },
+  {
+    "id": "profile-positioning",
+    "chunkType": "profile_positioning",
+    "title": "Profile positioning",
+    "text": "Best-fit roles: Enterprise AI Transformation Leader, Workflow Automation / Orchestration Leader, Director of Data & Digital Solutions, Analytics Modernization Leader, Governance-Aware AI Strategy Lead. Current positioning: Enterprise AI workflow leader, Governance-aware automation strategist, Analytics modernization leader, Applied AI workflow practitioner, Workflow orchestration specialist. Boundaries: Not positioned as a deep ML engineer, Not positioned as a pure software engineer, Not positioned as a research scientist, Not positioned as a production AI platform engineer",
+    "sourceRecordId": "igor_yezhov_profile",
+    "sourceStatus": "canonical_profile",
+    "publicSafe": true,
+    "tags": [
+      "positioning",
+      "fit",
+      "roles",
+      "boundaries"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "role_rsm_2020_present-summary",
+    "chunkType": "role_summary",
+    "title": "Director, Data Analytics at RSM US LLP",
+    "text": "Director, Data Analytics at RSM US LLP. Leads analytics modernization, intelligent automation, workflow transformation, governance, and AI-assisted workflow development for enterprise clients and internal initiatives. Industries: Financial Services, Healthcare, Government, Insurance, Technology, Commercial, Education. Tools: Alteryx, Power BI, Snowflake, Azure, Azure Data Factory, SQL, Claude, VS Code, Microsoft Copilot Studio, Ollama, LM Studio, Postman, MCP Server Integrations, Power Automate, Boomi. Frameworks: OCC examinations, SOX readiness, HIPAA pricing transparency, Federal consent orders, Governance and controls.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "financial-services",
+      "healthcare",
+      "government",
+      "insurance",
+      "technology",
+      "commercial",
+      "education",
+      "alteryx",
+      "power-bi",
+      "snowflake",
+      "azure",
+      "azure-data-factory",
+      "sql",
+      "claude",
+      "vs-code",
+      "microsoft-copilot-studio",
+      "ollama",
+      "lm-studio",
+      "postman",
+      "mcp-server-integrations",
+      "power-automate",
+      "boomi"
+    ],
+    "priority": 8
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-1",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 1",
+    "text": "Director, Data Analytics at RSM US LLP: Led analytics and digital transformation initiatives across financial services, healthcare, government, insurance, and commercial clients.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "led-analytics-and-digital-transformation-initiatives-across-financial-services-healthcare-government-insurance-and-commercial-clients"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-2",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 2",
+    "text": "Director, Data Analytics at RSM US LLP: Built ERP-integrated accounts payable and billing automation workflows that reduced manual effort and improved operational timeliness.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "built-erp-integrated-accounts-payable-and-billing-automation-workflows-that-reduced-manual-effort-and-improved-operational-timeliness"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-3",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 3",
+    "text": "Director, Data Analytics at RSM US LLP: Developed AI-assisted workflow concepts, modular agents, prompt libraries, and documentation automation patterns.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "developed-ai-assisted-workflow-concepts-modular-agents-prompt-libraries-and-documentation-automation-patterns"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-4",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 4",
+    "text": "Director, Data Analytics at RSM US LLP: Used Claude, VS Code, Postman, MCP integrations, Ollama, and LM Studio in applied workflow experimentation and development support.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "used-claude-vs-code-postman-mcp-integrations-ollama-and-lm-studio-in-applied-workflow-experimentation-and-development-support"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-5",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 5",
+    "text": "Director, Data Analytics at RSM US LLP: Oversaw Azure migration, semantic reporting layers, Snowflake and Power BI modernization, and stakeholder/vendor coordination.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "oversaw-azure-migration-semantic-reporting-layers-snowflake-and-power-bi-modernization-and-stakeholder-vendor-coordination"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-6",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 6",
+    "text": "Director, Data Analytics at RSM US LLP: Led or supported projects involving Boomi + SQL EDI workflows, migration accelerators, documentation agents, and data-quality tooling.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "led-or-supported-projects-involving-boomi-sql-edi-workflows-migration-accelerators-documentation-agents-and-data-quality-tooling"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-7",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 7",
+    "text": "Director, Data Analytics at RSM US LLP: Supported top financial-services clients with assets ranging roughly from $50B to $2.4T on governance, controls, and transformation efforts.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "supported-top-financial-services-clients-with-assets-ranging-roughly-from-50b-to-2-4t-on-governance-controls-and-transformation-efforts"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_rsm_2020_present-highlight-8",
+    "chunkType": "role_highlight",
+    "title": "RSM US LLP highlight 8",
+    "text": "Director, Data Analytics at RSM US LLP: Worked with or coordinated teams of up to 21 engineers across 15-20 projects per year in certain programs.",
+    "sourceRecordId": "role_rsm_2020_present",
+    "sourceStatus": "resume_verified_latest_plus_client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-us-llp",
+      "director-data-analytics",
+      "worked-with-or-coordinated-teams-of-up-to-21-engineers-across-15-20-projects-per-year-in-certain-programs"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_pwc_2015_2020-summary",
+    "chunkType": "role_summary",
+    "title": "Manager – Digital Accelerator / Audit Manager at PwC",
+    "text": "Manager – Digital Accelerator / Audit Manager at PwC. Managed internal audit, IT risk assessment, issue validation, and automation-oriented delivery across banking, asset management, and education clients. Industries: Banking, Asset Management, Education. Tools: Alteryx, UiPath, Tableau. Frameworks: NIST, ISO, COBIT.",
+    "sourceRecordId": "role_pwc_2015_2020",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "pwc",
+      "manager-digital-accelerator-audit-manager",
+      "banking",
+      "asset-management",
+      "education",
+      "alteryx",
+      "uipath",
+      "tableau"
+    ],
+    "priority": 8
+  },
+  {
+    "id": "role_pwc_2015_2020-highlight-1",
+    "chunkType": "role_highlight",
+    "title": "PwC highlight 1",
+    "text": "Manager – Digital Accelerator / Audit Manager at PwC: Developed IT risk assessment methodologies aligned to NIST, ISO, and COBIT.",
+    "sourceRecordId": "role_pwc_2015_2020",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "pwc",
+      "manager-digital-accelerator-audit-manager",
+      "developed-it-risk-assessment-methodologies-aligned-to-nist-iso-and-cobit"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_pwc_2015_2020-highlight-2",
+    "chunkType": "role_highlight",
+    "title": "PwC highlight 2",
+    "text": "Manager – Digital Accelerator / Audit Manager at PwC: Built or supported automation workflows that improved audit efficiency and budget performance.",
+    "sourceRecordId": "role_pwc_2015_2020",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "pwc",
+      "manager-digital-accelerator-audit-manager",
+      "built-or-supported-automation-workflows-that-improved-audit-efficiency-and-budget-performance"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_pwc_2015_2020-highlight-3",
+    "chunkType": "role_highlight",
+    "title": "PwC highlight 3",
+    "text": "Manager – Digital Accelerator / Audit Manager at PwC: Led work across IT governance, data governance, security, business continuity, and vendor risk domains.",
+    "sourceRecordId": "role_pwc_2015_2020",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "pwc",
+      "manager-digital-accelerator-audit-manager",
+      "led-work-across-it-governance-data-governance-security-business-continuity-and-vendor-risk-domains"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_pwc_2015_2020-highlight-4",
+    "chunkType": "role_highlight",
+    "title": "PwC highlight 4",
+    "text": "Manager – Digital Accelerator / Audit Manager at PwC: Reported savings including roughly 30% budget savings via automation and over 20% reductions through delivery optimization in certain engagements.",
+    "sourceRecordId": "role_pwc_2015_2020",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "pwc",
+      "manager-digital-accelerator-audit-manager",
+      "reported-savings-including-roughly-30-budget-savings-via-automation-and-over-20-reductions-through-delivery-optimization-in-certain-engagements"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_ey_2013_2015-summary",
+    "chunkType": "role_summary",
+    "title": "Senior IT Auditor at Ernst & Young",
+    "text": "Senior IT Auditor at Ernst & Young. Performed IT general controls, SOX, SOC, and application-control testing for financial-services, insurance, and exchange-related environments. Industries: Financial Services, Insurance, Global Stock Exchanges. Tools: Oracle, SQL Server, MySQL, Sybase, PeopleSoft, Hyperion, AWS, Linux, Unix/AIX, Imperva. Frameworks: SOX, SSAE 18, SOC 1, SOC 2, PCAOB.",
+    "sourceRecordId": "role_ey_2013_2015",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "ernst-young",
+      "senior-it-auditor",
+      "financial-services",
+      "insurance",
+      "global-stock-exchanges",
+      "oracle",
+      "sql-server",
+      "mysql",
+      "sybase",
+      "peoplesoft",
+      "hyperion",
+      "aws",
+      "linux",
+      "unix-aix",
+      "imperva"
+    ],
+    "priority": 8
+  },
+  {
+    "id": "role_ey_2013_2015-highlight-1",
+    "chunkType": "role_highlight",
+    "title": "Ernst & Young highlight 1",
+    "text": "Senior IT Auditor at Ernst & Young: Executed application control testing and ITGC testing.",
+    "sourceRecordId": "role_ey_2013_2015",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "ernst-young",
+      "senior-it-auditor",
+      "executed-application-control-testing-and-itgc-testing"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_ey_2013_2015-highlight-2",
+    "chunkType": "role_highlight",
+    "title": "Ernst & Young highlight 2",
+    "text": "Senior IT Auditor at Ernst & Young: Supported SOC 1 and SOC 2 reporting and related audit work.",
+    "sourceRecordId": "role_ey_2013_2015",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "ernst-young",
+      "senior-it-auditor",
+      "supported-soc-1-and-soc-2-reporting-and-related-audit-work"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_ey_2013_2015-highlight-3",
+    "chunkType": "role_highlight",
+    "title": "Ernst & Young highlight 3",
+    "text": "Senior IT Auditor at Ernst & Young: Worked with Oracle, SQL Server, MySQL, Sybase, PeopleSoft, Hyperion, AWS, Linux/Unix, and Imperva.",
+    "sourceRecordId": "role_ey_2013_2015",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "ernst-young",
+      "senior-it-auditor",
+      "worked-with-oracle-sql-server-mysql-sybase-peoplesoft-hyperion-aws-linux-unix-and-imperva"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_gt_2011_2012-summary",
+    "chunkType": "role_summary",
+    "title": "Intern – IT Auditor at Grant Thornton",
+    "text": "Intern – IT Auditor at Grant Thornton. Assisted operational and technology risk reviews across banking, technology, produce, and energy environments. Industries: Banking, Technology, Produce, Energy. Tools: Great Plains, JDE, MAX, Oasis UTA & IDT, OS400, Oracle Financials. Frameworks: .",
+    "sourceRecordId": "role_gt_2011_2012",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "grant-thornton",
+      "intern-it-auditor",
+      "banking",
+      "technology",
+      "produce",
+      "energy",
+      "great-plains",
+      "jde",
+      "max",
+      "oasis-uta-idt",
+      "os400",
+      "oracle-financials"
+    ],
+    "priority": 8
+  },
+  {
+    "id": "role_gt_2011_2012-highlight-1",
+    "chunkType": "role_highlight",
+    "title": "Grant Thornton highlight 1",
+    "text": "Intern – IT Auditor at Grant Thornton: Supported operational infrastructure reviews and audit work.",
+    "sourceRecordId": "role_gt_2011_2012",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "grant-thornton",
+      "intern-it-auditor",
+      "supported-operational-infrastructure-reviews-and-audit-work"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_gt_2011_2012-highlight-2",
+    "chunkType": "role_highlight",
+    "title": "Grant Thornton highlight 2",
+    "text": "Intern – IT Auditor at Grant Thornton: Worked across ERP and enterprise environments including Oracle Financials and other legacy systems.",
+    "sourceRecordId": "role_gt_2011_2012",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "grant-thornton",
+      "intern-it-auditor",
+      "worked-across-erp-and-enterprise-environments-including-oracle-financials-and-other-legacy-systems"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_irs_2009_2011-summary",
+    "chunkType": "role_summary",
+    "title": "Examiner at Internal Revenue Service",
+    "text": "Examiner at Internal Revenue Service. Audited tax returns and applied federal and state tax code requirements in a high-volume compliance environment. Industries: Government. Tools: . Frameworks: Federal tax code, State tax code.",
+    "sourceRecordId": "role_irs_2009_2011",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "internal-revenue-service",
+      "examiner",
+      "government"
+    ],
+    "priority": 8
+  },
+  {
+    "id": "role_irs_2009_2011-highlight-1",
+    "chunkType": "role_highlight",
+    "title": "Internal Revenue Service highlight 1",
+    "text": "Examiner at Internal Revenue Service: Audited roughly 300 tax returns annually.",
+    "sourceRecordId": "role_irs_2009_2011",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "internal-revenue-service",
+      "examiner",
+      "audited-roughly-300-tax-returns-annually"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "role_irs_2009_2011-highlight-2",
+    "chunkType": "role_highlight",
+    "title": "Internal Revenue Service highlight 2",
+    "text": "Examiner at Internal Revenue Service: Applied federal and state tax codes in examination workflows.",
+    "sourceRecordId": "role_irs_2009_2011",
+    "sourceStatus": "resume_verified_legacy",
+    "publicSafe": true,
+    "tags": [
+      "internal-revenue-service",
+      "examiner",
+      "applied-federal-and-state-tax-codes-in-examination-workflows"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_migrateiq-project",
+    "chunkType": "project_card",
+    "title": "MigrateIQ",
+    "text": "MigrateIQ. Category: AI-assisted migration accelerator. AI-powered migration accelerator using semantic matching, LLM-assisted disambiguation, analyst review, and SQL export. Tools: LLM-assisted matching, SQL, semantic matching. Implementation status: implemented internal or client safe summary.",
+    "sourceRecordId": "project_migrateiq",
+    "sourceStatus": "client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "migrateiq",
+      "ai-assisted-migration-accelerator",
+      "llm-assisted-matching",
+      "sql",
+      "semantic-matching"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_edi_transformation_analytics-project",
+    "chunkType": "project_card",
+    "title": "EDI Transformation Analytics Platform",
+    "text": "EDI Transformation Analytics Platform. Category: Integration and exception management. Boomi + SQL workflow for exception review, correction, approval, and reprocessing of EDI transactions. Tools: Boomi, SQL. Implementation status: implemented.",
+    "sourceRecordId": "project_edi_transformation_analytics",
+    "sourceStatus": "client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "edi-transformation-analytics-platform",
+      "integration-and-exception-management",
+      "boomi",
+      "sql"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_documentation_agents-project",
+    "chunkType": "project_card",
+    "title": "Documentation Agents",
+    "text": "Documentation Agents. Category: AI-assisted workflow. Converted intake materials into structured briefs and reusable project artifacts to speed project startup and knowledge transfer. Tools: Claude, prompt engineering, workflow orchestration. Implementation status: implemented internal.",
+    "sourceRecordId": "project_documentation_agents",
+    "sourceStatus": "client_facing_enrichment_plus_seed",
+    "publicSafe": true,
+    "tags": [
+      "documentation-agents",
+      "ai-assisted-workflow",
+      "claude",
+      "prompt-engineering",
+      "workflow-orchestration"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_rsm_deqs-project",
+    "chunkType": "project_card",
+    "title": "RSM DEQS",
+    "text": "RSM DEQS. Category: Data validation and quality. Data comparison and validation tool handling CSV, JSON, and Excel schemas to improve migration readiness and issue detection. Tools: CSV, JSON, Excel, schema comparison. Implementation status: implemented internal.",
+    "sourceRecordId": "project_rsm_deqs",
+    "sourceStatus": "client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "rsm-deqs",
+      "data-validation-and-quality",
+      "csv",
+      "json",
+      "excel",
+      "schema-comparison"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_accounts_payable_automation-project",
+    "chunkType": "project_card",
+    "title": "Accounts Payable Automation",
+    "text": "Accounts Payable Automation. Category: ERP-integrated automation. Automated accounts-payable workflows to reduce backlog, improve timeliness, and lower manual effort. Tools: ERP integrations, automation workflows. Implementation status: implemented.",
+    "sourceRecordId": "project_accounts_payable_automation",
+    "sourceStatus": "resume_verified_latest_and_legacy",
+    "publicSafe": true,
+    "tags": [
+      "accounts-payable-automation",
+      "erp-integrated-automation",
+      "erp-integrations",
+      "automation-workflows"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_hospital_pricing_billing_automation-project",
+    "chunkType": "project_card",
+    "title": "Hospital Pricing Transparency & Billing Automation",
+    "text": "Hospital Pricing Transparency & Billing Automation. Category: Healthcare process automation. Supported healthcare process automation and medical billing workflows, including charge master, claims, and service-data alignment. Tools: automation, claims alignment, data reconciliation. Implementation status: implemented.",
+    "sourceRecordId": "project_hospital_pricing_billing_automation",
+    "sourceStatus": "client_facing_enrichment_plus_legacy_resume",
+    "publicSafe": true,
+    "tags": [
+      "hospital-pricing-transparency-billing-automation",
+      "healthcare-process-automation",
+      "automation",
+      "claims-alignment",
+      "data-reconciliation"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_fpna_modernization-project",
+    "chunkType": "project_card",
+    "title": "FP&A Modernization",
+    "text": "FP&A Modernization. Category: Analytics modernization. Modernized finance and performance reporting using Snowflake and Power BI for operational visibility and decision support. Tools: Snowflake, Power BI. Implementation status: implemented.",
+    "sourceRecordId": "project_fpna_modernization",
+    "sourceStatus": "legacy_resume",
+    "publicSafe": true,
+    "tags": [
+      "fp-a-modernization",
+      "analytics-modernization",
+      "snowflake",
+      "power-bi"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_spatial_analytics_insurance-project",
+    "chunkType": "project_card",
+    "title": "State Insurance Spatial Analytics",
+    "text": "State Insurance Spatial Analytics. Category: Geospatial analytics. Designed spatial analytics for a state insurance department spanning provider specialties, facility types, and hundreds of locations. Tools: analytics, spatial mapping, insurance data. Implementation status: implemented.",
+    "sourceRecordId": "project_spatial_analytics_insurance",
+    "sourceStatus": "client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "state-insurance-spatial-analytics",
+      "geospatial-analytics",
+      "analytics",
+      "spatial-mapping",
+      "insurance-data"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_financial_services_governance_playbooks-project",
+    "chunkType": "project_card",
+    "title": "Financial Services Governance Playbooks",
+    "text": "Financial Services Governance Playbooks. Category: Governance and controls. Supported governance, controls, standards, and transformation playbooks for major financial-services clients. Tools: governance, controls, operating model. Implementation status: implemented and team led.",
+    "sourceRecordId": "project_financial_services_governance_playbooks",
+    "sourceStatus": "client_facing_enrichment_plus_resumes",
+    "publicSafe": true,
+    "tags": [
+      "financial-services-governance-playbooks",
+      "governance-and-controls",
+      "governance",
+      "controls",
+      "operating-model"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_sox_readiness-project",
+    "chunkType": "project_card",
+    "title": "SOX Readiness and Data Architecture Support",
+    "text": "SOX Readiness and Data Architecture Support. Category: Compliance and controls. Assisted clients with SOX readiness while improving data architecture and control design. Tools: SOX, controls, data architecture. Implementation status: implemented.",
+    "sourceRecordId": "project_sox_readiness",
+    "sourceStatus": "client_facing_enrichment",
+    "publicSafe": true,
+    "tags": [
+      "sox-readiness-and-data-architecture-support",
+      "compliance-and-controls",
+      "sox",
+      "controls",
+      "data-architecture"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_ai_assisted_rfp_workflow-project",
+    "chunkType": "project_card",
+    "title": "AI-Assisted RFP Workflow System",
+    "text": "AI-Assisted RFP Workflow System. Category: Multi-agent workflow. Used modular workflow orchestration for requirement extraction, capability matching, and template-aware response generation. Tools: Claude, VS Code, MCP, prompt libraries, parallel batching. Implementation status: implemented internal or seeded.",
+    "sourceRecordId": "project_ai_assisted_rfp_workflow",
+    "sourceStatus": "approved_seed",
+    "publicSafe": true,
+    "tags": [
+      "ai-assisted-rfp-workflow-system",
+      "multi-agent-workflow",
+      "claude",
+      "vs-code",
+      "mcp",
+      "prompt-libraries",
+      "parallel-batching"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_documentation_orchestration_system-project",
+    "chunkType": "project_card",
+    "title": "Documentation Orchestration System",
+    "text": "Documentation Orchestration System. Category: Multi-agent workflow. A 12-agent documentation system covering intake, validation, orchestration, research, mapping, and technical design. Tools: multi-agent orchestration, BGE M3 embeddings, AI schema bridge. Implementation status: implemented internal or seeded.",
+    "sourceRecordId": "project_documentation_orchestration_system",
+    "sourceStatus": "approved_seed",
+    "publicSafe": true,
+    "tags": [
+      "documentation-orchestration-system",
+      "multi-agent-workflow",
+      "multi-agent-orchestration",
+      "bge-m3-embeddings",
+      "ai-schema-bridge"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_mcp_enabled_workflows-project",
+    "chunkType": "project_card",
+    "title": "MCP-Enabled Development Workflows",
+    "text": "MCP-Enabled Development Workflows. Category: Developer enablement. Integrated MCP-enabled tooling into development workflows with VS Code and Claude-based systems. Tools: VS Code, Claude Code, MCP. Implementation status: implemented internal.",
+    "sourceRecordId": "project_mcp_enabled_workflows",
+    "sourceStatus": "approved_seed_plus_latest_resume",
+    "publicSafe": true,
+    "tags": [
+      "mcp-enabled-development-workflows",
+      "developer-enablement",
+      "vs-code",
+      "claude-code",
+      "mcp"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_local_llm_experimentation-project",
+    "chunkType": "project_card",
+    "title": "Local LLM Experimentation",
+    "text": "Local LLM Experimentation. Category: Applied AI experimentation. Experimented with local LLM workflows using Ollama and LM Studio in support of practical workflow development and evaluation. Tools: Ollama, LM Studio. Implementation status: evaluated and applied.",
+    "sourceRecordId": "project_local_llm_experimentation",
+    "sourceStatus": "approved_seed_plus_latest_resume",
+    "publicSafe": true,
+    "tags": [
+      "local-llm-experimentation",
+      "applied-ai-experimentation",
+      "ollama",
+      "lm-studio"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "project_prompt_libraries_and_agentic_patterns-project",
+    "chunkType": "project_card",
+    "title": "Prompt Libraries and Agentic Workflow Patterns",
+    "text": "Prompt Libraries and Agentic Workflow Patterns. Category: AI workflow enablement. Developed prompt libraries, modular agent concepts, and context-management patterns for enterprise workflow use cases. Tools: prompt engineering, agentic workflow patterns, context management. Implementation status: implemented internal.",
+    "sourceRecordId": "project_prompt_libraries_and_agentic_patterns",
+    "sourceStatus": "approved_seed_plus_latest_resume",
+    "publicSafe": true,
+    "tags": [
+      "prompt-libraries-and-agentic-workflow-patterns",
+      "ai-workflow-enablement",
+      "prompt-engineering",
+      "agentic-workflow-patterns",
+      "context-management"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "skills-ai-and-workflows",
+    "chunkType": "skill_group",
+    "title": "ai and workflows",
+    "text": "ai and workflows: Enterprise AI workflows (strong, hands on), Workflow orchestration (strong, hands on), Prompt engineering (strong, hands on), Modular agent concepts (strong, hands on internal), Multi-agent system design (strong, hands on internal), MCP integration (strong, hands on), Local LLM tooling (strong, evaluated and applied), Embeddings and schema matching (working, hands on internal)",
+    "sourceRecordId": "skills",
+    "sourceStatus": "canonical_skills",
+    "publicSafe": true,
+    "tags": [
+      "ai-and-workflows",
+      "enterprise-ai-workflows-strong-hands-on",
+      "workflow-orchestration-strong-hands-on",
+      "prompt-engineering-strong-hands-on",
+      "modular-agent-concepts-strong-hands-on-internal",
+      "multi-agent-system-design-strong-hands-on-internal",
+      "mcp-integration-strong-hands-on",
+      "local-llm-tooling-strong-evaluated-and-applied",
+      "embeddings-and-schema-matching-working-hands-on-internal"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "skills-analytics-automation-and-data",
+    "chunkType": "skill_group",
+    "title": "analytics automation and data",
+    "text": "analytics automation and data: Alteryx (advanced, hands on), Power BI (working, hands on), Snowflake (working, hands on), SQL (working, hands on), Azure / Azure Data Factory (working, hands on), Power Automate / Microsoft Flow (working, hands on), Data migration strategy (strong, hands on and team led), Semantic reporting layers (working, hands on)",
+    "sourceRecordId": "skills",
+    "sourceStatus": "canonical_skills",
+    "publicSafe": true,
+    "tags": [
+      "analytics-automation-and-data",
+      "alteryx-advanced-hands-on",
+      "power-bi-working-hands-on",
+      "snowflake-working-hands-on",
+      "sql-working-hands-on",
+      "azure-azure-data-factory-working-hands-on",
+      "power-automate-microsoft-flow-working-hands-on",
+      "data-migration-strategy-strong-hands-on-and-team-led",
+      "semantic-reporting-layers-working-hands-on"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "skills-integration-and-platforms",
+    "chunkType": "skill_group",
+    "title": "integration and platforms",
+    "text": "integration and platforms: Boomi (working, needs confirmation on depth), Postman (working, hands on), Claude / Claude Code (strong, hands on), Microsoft Copilot Studio (working, hands on), VS Code (strong, hands on), Ollama (working, hands on), LM Studio (working, hands on)",
+    "sourceRecordId": "skills",
+    "sourceStatus": "canonical_skills",
+    "publicSafe": true,
+    "tags": [
+      "integration-and-platforms",
+      "boomi-working-needs-confirmation-on-depth",
+      "postman-working-hands-on",
+      "claude-claude-code-strong-hands-on",
+      "microsoft-copilot-studio-working-hands-on",
+      "vs-code-strong-hands-on",
+      "ollama-working-hands-on",
+      "lm-studio-working-hands-on"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "skills-governance-risk-and-compliance",
+    "chunkType": "skill_group",
+    "title": "governance risk and compliance",
+    "text": "governance risk and compliance: Enterprise governance (strong, hands on and team led), Risk management (strong, hands on and team led), Vendor risk management (strong, hands on), SOX compliance (strong, hands on), NIST / COBIT / ISO (strong, hands on), AI governance and OWASP-aligned guardrails (working, thought leadership and applied)",
+    "sourceRecordId": "skills",
+    "sourceStatus": "canonical_skills",
+    "publicSafe": true,
+    "tags": [
+      "governance-risk-and-compliance",
+      "enterprise-governance-strong-hands-on-and-team-led",
+      "risk-management-strong-hands-on-and-team-led",
+      "vendor-risk-management-strong-hands-on",
+      "sox-compliance-strong-hands-on",
+      "nist-cobit-iso-strong-hands-on",
+      "ai-governance-and-owasp-aligned-guardrails-working-thought-leadership-and-applied"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "skills-leadership-and-delivery",
+    "chunkType": "skill_group",
+    "title": "leadership and delivery",
+    "text": "leadership and delivery: Executive stakeholder management (strong, hands on and team led), Vendor management (strong, hands on), Partner relationship leadership (strong, hands on), Team leadership (strong, team led), Business development support (working, hands on)",
+    "sourceRecordId": "skills",
+    "sourceStatus": "canonical_skills",
+    "publicSafe": true,
+    "tags": [
+      "leadership-and-delivery",
+      "executive-stakeholder-management-strong-hands-on-and-team-led",
+      "vendor-management-strong-hands-on",
+      "partner-relationship-leadership-strong-hands-on",
+      "team-leadership-strong-team-led",
+      "business-development-support-working-hands-on"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "qa-what-does-igor-do-in-his-current-role-1",
+    "chunkType": "interview_qa",
+    "title": "What does Igor do in his current role?",
+    "text": "Igor leads analytics modernization, intelligent automation, governance-aware workflow transformation, and AI-assisted workflow development at RSM. His work spans enterprise reporting, automation, migration support, and practical AI enablement.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "what-does-igor-do-in-his-current-role",
+      "igor-leads-analytics-modernization-intelligent-automation-governance-aware-workflow-transformation-and-ai-assisted-workflow-development-at-rsm-his-work-spans-enterprise-reporting-automation-migration-support-and-practical-ai-enablement"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-how-many-years-of-experience-does-igor-have-2",
+    "chunkType": "interview_qa",
+    "title": "How many years of experience does Igor have?",
+    "text": "Igor has 16 years of enterprise experience overall, including substantial time in governance, analytics, automation, and risk-focused environments. He also has 4-5 years of workflow automation/orchestration experience and roughly 18 months of applied AI workflow work.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "how-many-years-of-experience-does-igor-have",
+      "igor-has-16-years-of-enterprise-experience-overall-including-substantial-time-in-governance-analytics-automation-and-risk-focused-environments-he-also-has-4-5-years-of-workflow-automation-orchestration-experience-and-roughly-18-months-of-applied-ai-workflow-work"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-what-kind-of-ai-work-has-igor-actually-done-3",
+    "chunkType": "interview_qa",
+    "title": "What kind of AI work has Igor actually done?",
+    "text": "He has worked on practical enterprise AI workflows such as modular agent concepts, prompt libraries, documentation agents, migration accelerators, workflow orchestration patterns, local LLM experimentation, and MCP-enabled development workflows.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "what-kind-of-ai-work-has-igor-actually-done",
+      "he-has-worked-on-practical-enterprise-ai-workflows-such-as-modular-agent-concepts-prompt-libraries-documentation-agents-migration-accelerators-workflow-orchestration-patterns-local-llm-experimentation-and-mcp-enabled-development-workflows"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-has-igor-deployed-production-ai-externally-4",
+    "chunkType": "interview_qa",
+    "title": "Has Igor deployed production AI externally?",
+    "text": "The approved public-safe knowledge base does not claim external production AI deployment. A safer summary is that Igor has hands-on applied AI workflow experience, internal workflow enablement experience, and governance-aware experimentation.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "has-igor-deployed-production-ai-externally",
+      "the-approved-public-safe-knowledge-base-does-not-claim-external-production-ai-deployment-a-safer-summary-is-that-igor-has-hands-on-applied-ai-workflow-experience-internal-workflow-enablement-experience-and-governance-aware-experimentation"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-what-is-igor-s-experience-with-governance-5",
+    "chunkType": "interview_qa",
+    "title": "What is Igor's experience with governance?",
+    "text": "Governance is one of Igor's strongest differentiators. His background includes audit, IT risk, controls, vendor risk, SOX, NIST, COBIT, enterprise governance, and governance-aware AI positioning.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "what-is-igor-s-experience-with-governance",
+      "governance-is-one-of-igor-s-strongest-differentiators-his-background-includes-audit-it-risk-controls-vendor-risk-sox-nist-cobit-enterprise-governance-and-governance-aware-ai-positioning"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-how-technical-is-igor-6",
+    "chunkType": "interview_qa",
+    "title": "How technical is Igor?",
+    "text": "Igor is technically fluent in enterprise analytics, workflow orchestration, prompt engineering, data migration, SQL-centric work, platform integration support, and governance-focused transformation. He should not be positioned as a deep ML engineer or expert Python software developer.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "how-technical-is-igor",
+      "igor-is-technically-fluent-in-enterprise-analytics-workflow-orchestration-prompt-engineering-data-migration-sql-centric-work-platform-integration-support-and-governance-focused-transformation-he-should-not-be-positioned-as-a-deep-ml-engineer-or-expert-python-software-developer"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-what-tools-has-igor-used-recently-7",
+    "chunkType": "interview_qa",
+    "title": "What tools has Igor used recently?",
+    "text": "Recent and approved tools include Alteryx, Power BI, Snowflake, Azure, SQL, Claude, VS Code, Microsoft Copilot Studio, Ollama, LM Studio, Postman, MCP server integrations, and Power Automate. Boomi may be mentioned with cautious wording until final confirmation on depth and presentation.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "what-tools-has-igor-used-recently",
+      "recent-and-approved-tools-include-alteryx-power-bi-snowflake-azure-sql-claude-vs-code-microsoft-copilot-studio-ollama-lm-studio-postman-mcp-server-integrations-and-power-automate-boomi-may-be-mentioned-with-cautious-wording-until-final-confirmation-on-depth-and-presentation"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-why-is-igor-a-fit-for-enterprise-ai-transformation-roles-8",
+    "chunkType": "interview_qa",
+    "title": "Why is Igor a fit for enterprise AI transformation roles?",
+    "text": "Because he bridges governance, analytics, workflow automation, and applied AI. He is strongest in making enterprise processes more effective, controlled, and scalable through practical orchestration and modernization.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "why-is-igor-a-fit-for-enterprise-ai-transformation-roles",
+      "because-he-bridges-governance-analytics-workflow-automation-and-applied-ai-he-is-strongest-in-making-enterprise-processes-more-effective-controlled-and-scalable-through-practical-orchestration-and-modernization"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-what-is-igor-s-experience-with-mcp-9",
+    "chunkType": "interview_qa",
+    "title": "What is Igor's experience with MCP?",
+    "text": "The approved materials support that Igor has worked with MCP-enabled development workflows and integrations in environments involving Claude and VS Code.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "what-is-igor-s-experience-with-mcp",
+      "the-approved-materials-support-that-igor-has-worked-with-mcp-enabled-development-workflows-and-integrations-in-environments-involving-claude-and-vs-code"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "qa-what-should-the-assistant-do-if-asked-for-proprietary-prompts-or-confidential-details-10",
+    "chunkType": "interview_qa",
+    "title": "What should the assistant do if asked for proprietary prompts or confidential details?",
+    "text": "Refuse briefly and redirect to a public-safe summary of the capability without revealing templates, client-sensitive content, or internal methodologies.",
+    "sourceRecordId": "interview-qa",
+    "sourceStatus": "canonical_qa",
+    "publicSafe": true,
+    "tags": [
+      "what-should-the-assistant-do-if-asked-for-proprietary-prompts-or-confidential-details",
+      "refuse-briefly-and-redirect-to-a-public-safe-summary-of-the-capability-without-revealing-templates-client-sensitive-content-or-internal-methodologies"
+    ],
+    "priority": 9
+  },
+  {
+    "id": "guardrail-1",
+    "chunkType": "guardrail_rule",
+    "title": "Guardrail 1",
+    "text": "Do not claim external production AI deployment unless explicitly verified and approved.",
+    "sourceRecordId": "guardrails",
+    "sourceStatus": "canonical_guardrails",
+    "publicSafe": true,
+    "tags": [
+      "guardrail",
+      "do-not-claim-external-production-ai-deployment-unless-explicitly-verified-and-approved"
+    ],
+    "priority": 10
+  },
+  {
+    "id": "guardrail-2",
+    "chunkType": "guardrail_rule",
+    "title": "Guardrail 2",
+    "text": "Do not claim expert Python development depth.",
+    "sourceRecordId": "guardrails",
+    "sourceStatus": "canonical_guardrails",
+    "publicSafe": true,
+    "tags": [
+      "guardrail",
+      "do-not-claim-expert-python-development-depth"
+    ],
+    "priority": 10
+  },
+  {
+    "id": "guardrail-3",
+    "chunkType": "guardrail_rule",
+    "title": "Guardrail 3",
+    "text": "Do not claim deep ML model training expertise.",
+    "sourceRecordId": "guardrails",
+    "sourceStatus": "canonical_guardrails",
+    "publicSafe": true,
+    "tags": [
+      "guardrail",
+      "do-not-claim-deep-ml-model-training-expertise"
+    ],
+    "priority": 10
+  },
+  {
+    "id": "guardrail-4",
+    "chunkType": "guardrail_rule",
+    "title": "Guardrail 4",
+    "text": "Do not expose proprietary prompts, internal templates, or firm-specific methodologies.",
+    "sourceRecordId": "guardrails",
+    "sourceStatus": "canonical_guardrails",
+    "publicSafe": true,
+    "tags": [
+      "guardrail",
+      "do-not-expose-proprietary-prompts-internal-templates-or-firm-specific-methodologies"
+    ],
+    "priority": 10
+  },
+  {
+    "id": "guardrail-5",
+    "chunkType": "guardrail_rule",
+    "title": "Guardrail 5",
+    "text": "Do not disclose client-sensitive information or implementation details.",
+    "sourceRecordId": "guardrails",
+    "sourceStatus": "canonical_guardrails",
+    "publicSafe": true,
+    "tags": [
+      "guardrail",
+      "do-not-disclose-client-sensitive-information-or-implementation-details"
+    ],
+    "priority": 10
+  },
+  {
+    "id": "guardrail-6",
+    "chunkType": "guardrail_rule",
+    "title": "Guardrail 6",
+    "text": "Do not present conceptual work as production deployment.",
+    "sourceRecordId": "guardrails",
+    "sourceStatus": "canonical_guardrails",
+    "publicSafe": true,
+    "tags": [
+      "guardrail",
+      "do-not-present-conceptual-work-as-production-deployment"
+    ],
+    "priority": 10
+  },
+  {
+    "id": "guardrail-7",
+    "chunkType": "guardrail_rule",
+    "title": "Guardrail 7",
+    "text": "Do not claim AFTA implementation details or other sensitive governance specifics beyond approved framing.",
+    "sourceRecordId": "guardrails",
+    "sourceStatus": "canonical_guardrails",
+    "publicSafe": true,
+    "tags": [
+      "guardrail",
+      "do-not-claim-afta-implementation-details-or-other-sensitive-governance-specifics-beyond-approved-framing"
+    ],
+    "priority": 10
+  }
+]

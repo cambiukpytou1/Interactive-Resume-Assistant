@@ -90,11 +90,14 @@ export type ChatCitation = {
   source_record_id: string;
 };
 
+export type RetrievalMode = 'rule_based' | 'vector' | 'hybrid';
+
 export type ChatResult = {
   answer: string;
   answer_status: 'answered' | 'not_in_kb' | 'refused_guardrail';
   citations: ChatCitation[];
   matched_chunks?: RetrievalChunk[];
+  retrieval_mode?: RetrievalMode;
 };
 
 export type RetrievalChunkType =

@@ -1,15 +1,20 @@
 {
-  "name": "igor-interactive-resume-app",
-  "version": "0.1.0",
+  "name": "interactive-resume-assistant",
+  "version": "0.2.0",
   "private": true,
+  "description": "Next.js interactive resume dashboard with grounded recruiter chat and vector-ready retrieval hooks.",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "15.2.4",
+    "next": "^15.2.8",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },

@@ -9,11 +9,13 @@ import { ProjectsGrid } from '@/components/projects-grid';
 import { RecruiterPrompts } from '@/components/recruiter-prompts';
 import { SkillsGrid } from '@/components/skills-grid';
 import { StatsStrip } from '@/components/stats-strip';
+import { getRuntimeConfig } from '@/lib/config';
 import { ensureRetrievalArtifacts, loadResumeData } from '@/lib/data';
 
 export default async function HomePage() {
   const data = await loadResumeData();
   const chunks = await ensureRetrievalArtifacts();
+  const runtime = getRuntimeConfig();
 
   return (
     <>
@@ -26,7 +28,13 @@ export default async function HomePage() {
             roleCount={data.roles.length}
             projectCount={data.projects.length}
             hasRetrievalLayer={chunks.length > 0}
-            nextLayer="Replace rule-based retrieval with embeddings and Supabase pgvector while preserving the same guardrail rules."
+            retrievalModeLabel={runtime.vectorRetrievalEnabled ? 'Vector + fallback' : 'Rule-based'}
+            vectorReady={runtime.vectorRetrievalEnabled}
+            nextLayer={
+              runtime.vectorRetrievalEnabled
+                ? 'Populate Supabase with embedded resume chunks and validate semantic ranking quality against recruiter prompts.'
+                : 'Add OpenAI + Supabase environment variables to activate semantic retrieval without changing the front-end contract.'
+            }
           />
 
           <section className="grid gap-4 lg:grid-cols-3">

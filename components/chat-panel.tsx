@@ -7,6 +7,7 @@ type Message = {
   text: string;
   citations?: Array<{ label: string; source_record_id: string }>;
   answer_status?: 'answered' | 'not_in_kb' | 'refused_guardrail';
+  retrieval_mode?: 'rule_based' | 'vector' | 'hybrid';
 };
 
 const starters = [
@@ -24,6 +25,12 @@ const statusLabel: Record<string, string> = {
   refused_guardrail: 'Restricted by guardrails'
 };
 
+const retrievalModeLabel: Record<string, string> = {
+  rule_based: 'Rule-based retrieval',
+  vector: 'Vector retrieval',
+  hybrid: 'Vector + fallback'
+};
+
 export function ChatPanel() {
   const [question, setQuestion] = useState('');
   const [loading, setLoading] = useState(false);
@@ -31,7 +38,8 @@ export function ChatPanel() {
     {
       role: 'assistant',
       text: 'Ask a recruiter-style question about Igor\'s approved resume knowledge base.',
-      answer_status: 'answered'
+      answer_status: 'answered',
+      retrieval_mode: 'rule_based'
     }
   ]);
 
@@ -56,7 +64,8 @@ export function ChatPanel() {
           role: 'assistant',
           text: result.answer,
           citations: result.citations,
-          answer_status: result.answer_status
+          answer_status: result.answer_status,
+          retrieval_mode: result.retrieval_mode
         }
       ]);
     } catch {
@@ -65,7 +74,8 @@ export function ChatPanel() {
         {
           role: 'assistant',
           text: 'There was a problem reaching the chat API. Try again after the local app is running.',
-          answer_status: 'not_in_kb'
+          answer_status: 'not_in_kb',
+          retrieval_mode: 'rule_based'
         }
       ]);
     } finally {
@@ -78,7 +88,9 @@ export function ChatPanel() {
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h2 className="section-title">AI interview assistant</h2>
-          <p className="section-subtitle">This iteration uses the approved canonical files with a stronger rule-based retrieval layer. It is still designed to be upgraded to embeddings plus pgvector next.</p>
+          <p className="section-subtitle">
+            This build runs in rule-based mode by default and can switch to vector retrieval later without changing the chat experience.
+          </p>
         </div>
         <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800 sm:max-w-xs">
           Uses public-safe knowledge only and refuses restricted prompt or client-detail requests.
@@ -99,11 +111,18 @@ export function ChatPanel() {
         <div className="mt-5 space-y-4 rounded-2xl bg-slate-50 p-4">
           {messages.map((message, index) => (
             <div key={`${message.role}-${index}`} className={message.role === 'user' ? 'text-right' : 'text-left'}>
-              <div className={message.role === 'user' ? 'inline-block max-w-[92%] rounded-2xl bg-blue-600 px-4 py-3 text-sm text-white' : 'inline-block max-w-[92%] rounded-2xl bg-white px-4 py-3 text-sm text-slate-800 shadow-sm'}>
+              <div
+                className={
+                  message.role === 'user'
+                    ? 'inline-block max-w-[92%] rounded-2xl bg-blue-600 px-4 py-3 text-sm text-white'
+                    : 'inline-block max-w-[92%] rounded-2xl bg-white px-4 py-3 text-sm text-slate-800 shadow-sm'
+                }
+              >
                 {message.text}
               </div>
-              {message.answer_status ? (
-                <div className="mt-2 text-xs font-medium text-slate-500">{statusLabel[message.answer_status]}</div>
+              {message.answer_status ? <div className="mt-2 text-xs font-medium text-slate-500">{statusLabel[message.answer_status]}</div> : null}
+              {message.retrieval_mode ? (
+                <div className="mt-1 text-xs text-slate-400">{retrievalModeLabel[message.retrieval_mode]}</div>
               ) : null}
               {message.citations && message.citations.length > 0 ? (
                 <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-500">

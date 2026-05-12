@@ -1,4 +1,4 @@
-import { ChatResult, ResumeData, ChatCitation, RetrievalChunk } from '@/lib/types';
+import { ChatCitation, ChatResult, ResumeData, RetrievalChunk, RetrievalMode } from '@/lib/types';
 import { retrieveChunks } from '@/lib/retrieval';
 
 const RESTRICTED_PATTERNS = [
@@ -22,7 +22,7 @@ function toSentenceCase(text: string) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
-function answerFromTopChunks(question: string, chunks: RetrievalChunk[], citations: ChatCitation[]) {
+function answerFromTopChunks(chunks: RetrievalChunk[], citations: ChatCitation[]) {
   const top = chunks[0];
   const second = chunks[1];
   if (!top) return null;
@@ -61,14 +61,61 @@ function answerFromTopChunks(question: string, chunks: RetrievalChunk[], citatio
   return top.text;
 }
 
-export function answerQuestion(question: string, data: ResumeData): ChatResult {
-  if (RESTRICTED_PATTERNS.some((pattern) => pattern.test(question))) {
-    return {
-      answer:
-        'I can summarize Igor\'s public-safe capabilities, but I can\'t provide proprietary prompts, confidential client details, or restricted internal materials.',
-      answer_status: 'refused_guardrail',
-      citations: [{ label: 'Guardrails', source_record_id: 'guardrails' }]
-    };
+export function isRestrictedQuestion(question: string) {
+  return RESTRICTED_PATTERNS.some((pattern) => pattern.test(question));
+}
+
+export function buildGuardrailRefusal(retrievalMode: RetrievalMode = 'rule_based'): ChatResult {
+  return {
+    answer:
+      'I can summarize Igor\'s public-safe capabilities, but I can\'t provide proprietary prompts, confidential client details, or restricted internal materials.',
+    answer_status: 'refused_guardrail',
+    citations: [{ label: 'Guardrails', source_record_id: 'guardrails' }],
+    retrieval_mode: retrievalMode
+  };
+}
+
+function buildFallback(profileId: string, retrievalMode: RetrievalMode): ChatResult {
+  const citations: ChatCitation[] = [];
+  addCitation(citations, 'Profile', profileId);
+
+  return {
+    answer: 'I do not have that detail in the approved resume knowledge base. I can answer from the approved profile, roles, projects, skills, and interview Q&A that are currently included.',
+    answer_status: 'not_in_kb',
+    citations,
+    matched_chunks: [],
+    retrieval_mode: retrievalMode
+  };
+}
+
+export function buildChunkAnswer(
+  chunks: RetrievalChunk[],
+  profileId: string,
+  retrievalMode: RetrievalMode = 'rule_based'
+): ChatResult | null {
+  const citations: ChatCitation[] = [];
+  const answer = answerFromTopChunks(chunks, citations);
+
+  if (!answer) {
+    return null;
+  }
+
+  return {
+    answer,
+    answer_status: 'answered',
+    citations,
+    matched_chunks: chunks,
+    retrieval_mode: retrievalMode
+  };
+}
+
+export function answerQuestion(
+  question: string,
+  data: ResumeData,
+  retrievalMode: RetrievalMode = 'rule_based'
+): ChatResult {
+  if (isRestrictedQuestion(question)) {
+    return buildGuardrailRefusal(retrievalMode);
   }
 
   const lowerQuestion = question.toLowerCase();
@@ -79,7 +126,8 @@ export function answerQuestion(question: string, data: ResumeData): ChatResult {
     return {
       answer: `${data.profile.name} has ${data.profile.experience_summary.total_years_enterprise_experience} years of enterprise experience overall, including ${data.profile.experience_summary.workflow_automation_and_orchestration_years} years of workflow automation/orchestration and ${data.profile.experience_summary.applied_ai_workflow_experience} of applied AI workflow experience.`,
       answer_status: 'answered',
-      citations
+      citations,
+      retrieval_mode: retrievalMode
     };
   }
 
@@ -88,27 +136,17 @@ export function answerQuestion(question: string, data: ResumeData): ChatResult {
     return {
       answer: 'The approved profile currently contains both a personal and a client-facing contact variant. Final public display should follow the selections in the confirmation checklist before production launch.',
       answer_status: 'answered',
-      citations
+      citations,
+      retrieval_mode: retrievalMode
     };
   }
 
   const matchedChunks = retrieveChunks(question, data, 6);
-  const answer = answerFromTopChunks(question, matchedChunks, citations);
+  const chunkResult = buildChunkAnswer(matchedChunks, data.profile.id, retrievalMode);
 
-  if (answer) {
-    return {
-      answer,
-      answer_status: 'answered',
-      citations,
-      matched_chunks: matchedChunks
-    };
+  if (chunkResult) {
+    return chunkResult;
   }
 
-  addCitation(citations, 'Profile', data.profile.id);
-  return {
-    answer: 'I do not have that detail in the approved resume knowledge base. I can answer from the approved profile, roles, projects, skills, and interview Q&A that are currently included.',
-    answer_status: 'not_in_kb',
-    citations,
-    matched_chunks: []
-  };
+  return buildFallback(data.profile.id, retrievalMode);
 }
