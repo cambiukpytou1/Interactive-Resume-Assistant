@@ -1,0 +1,11 @@
+{
+  "queue": [
+    {
+      "id": "example_queue_item_001",
+      "from": "data/staging/project-additions.json",
+      "to": "data/canonical/projects.json",
+      "status": "pending_review",
+      "notes": "Move only after confirming public-safe wording and project naming."
+    }
+  ]
+}

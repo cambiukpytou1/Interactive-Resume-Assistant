@@ -1,0 +1,14 @@
+[
+  {
+    "id": "template_role_addition_001",
+    "target_role_id": "role_rsm_2020_present",
+    "text": "",
+    "source_id": "",
+    "source_status": "approved_seed",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on",
+    "confidence": "medium",
+    "merge_recommendation": "review_then_append",
+    "notes": "Use for new role bullets or updated summaries."
+  }
+]

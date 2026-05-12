@@ -1,0 +1,11 @@
+[
+  {
+    "id": "template_guardrail_addition_001",
+    "type": "restricted_claim",
+    "text": "",
+    "reason": "",
+    "source_id": "",
+    "merge_recommendation": "review_then_add",
+    "notes": "Use for new do-not-claim rules, refusal patterns, or positioning constraints."
+  }
+]

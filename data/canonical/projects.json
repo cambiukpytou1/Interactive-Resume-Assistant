@@ -1,0 +1,167 @@
+[
+  {
+    "id": "project_migrateiq",
+    "name": "MigrateIQ",
+    "category": "AI-assisted migration accelerator",
+    "summary": "AI-powered migration accelerator using semantic matching, LLM-assisted disambiguation, analyst review, and SQL export.",
+    "tools": ["LLM-assisted matching", "SQL", "semantic matching"],
+    "implementation_status": "implemented_internal_or_client_safe_summary",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment",
+    "confidence": "high"
+  },
+  {
+    "id": "project_edi_transformation_analytics",
+    "name": "EDI Transformation Analytics Platform",
+    "category": "Integration and exception management",
+    "summary": "Boomi + SQL workflow for exception review, correction, approval, and reprocessing of EDI transactions.",
+    "tools": ["Boomi", "SQL"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment",
+    "confidence": "high"
+  },
+  {
+    "id": "project_documentation_agents",
+    "name": "Documentation Agents",
+    "category": "AI-assisted workflow",
+    "summary": "Converted intake materials into structured briefs and reusable project artifacts to speed project startup and knowledge transfer.",
+    "tools": ["Claude", "prompt engineering", "workflow orchestration"],
+    "implementation_status": "implemented_internal",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment_plus_seed",
+    "confidence": "high"
+  },
+  {
+    "id": "project_rsm_deqs",
+    "name": "RSM DEQS",
+    "category": "Data validation and quality",
+    "summary": "Data comparison and validation tool handling CSV, JSON, and Excel schemas to improve migration readiness and issue detection.",
+    "tools": ["CSV", "JSON", "Excel", "schema comparison"],
+    "implementation_status": "implemented_internal",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment",
+    "confidence": "high"
+  },
+  {
+    "id": "project_accounts_payable_automation",
+    "name": "Accounts Payable Automation",
+    "category": "ERP-integrated automation",
+    "summary": "Automated accounts-payable workflows to reduce backlog, improve timeliness, and lower manual effort.",
+    "tools": ["ERP integrations", "automation workflows"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "resume_verified_latest_and_legacy",
+    "confidence": "high"
+  },
+  {
+    "id": "project_hospital_pricing_billing_automation",
+    "name": "Hospital Pricing Transparency & Billing Automation",
+    "category": "Healthcare process automation",
+    "summary": "Supported healthcare process automation and medical billing workflows, including charge master, claims, and service-data alignment.",
+    "tools": ["automation", "claims alignment", "data reconciliation"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment_plus_legacy_resume",
+    "confidence": "high"
+  },
+  {
+    "id": "project_fpna_modernization",
+    "name": "FP&A Modernization",
+    "category": "Analytics modernization",
+    "summary": "Modernized finance and performance reporting using Snowflake and Power BI for operational visibility and decision support.",
+    "tools": ["Snowflake", "Power BI"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "legacy_resume",
+    "confidence": "medium"
+  },
+  {
+    "id": "project_spatial_analytics_insurance",
+    "name": "State Insurance Spatial Analytics",
+    "category": "Geospatial analytics",
+    "summary": "Designed spatial analytics for a state insurance department spanning provider specialties, facility types, and hundreds of locations.",
+    "tools": ["analytics", "spatial mapping", "insurance data"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment",
+    "confidence": "high"
+  },
+  {
+    "id": "project_financial_services_governance_playbooks",
+    "name": "Financial Services Governance Playbooks",
+    "category": "Governance and controls",
+    "summary": "Supported governance, controls, standards, and transformation playbooks for major financial-services clients.",
+    "tools": ["governance", "controls", "operating model"],
+    "implementation_status": "implemented_and_team_led",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment_plus_resumes",
+    "confidence": "high"
+  },
+  {
+    "id": "project_sox_readiness",
+    "name": "SOX Readiness and Data Architecture Support",
+    "category": "Compliance and controls",
+    "summary": "Assisted clients with SOX readiness while improving data architecture and control design.",
+    "tools": ["SOX", "controls", "data architecture"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "client_facing_enrichment",
+    "confidence": "high"
+  },
+  {
+    "id": "project_ai_assisted_rfp_workflow",
+    "name": "AI-Assisted RFP Workflow System",
+    "category": "Multi-agent workflow",
+    "summary": "Used modular workflow orchestration for requirement extraction, capability matching, and template-aware response generation.",
+    "tools": ["Claude", "VS Code", "MCP", "prompt libraries", "parallel batching"],
+    "implementation_status": "implemented_internal_or_seeded",
+    "public_safe": true,
+    "source_status": "approved_seed",
+    "confidence": "medium"
+  },
+  {
+    "id": "project_documentation_orchestration_system",
+    "name": "Documentation Orchestration System",
+    "category": "Multi-agent workflow",
+    "summary": "A 12-agent documentation system covering intake, validation, orchestration, research, mapping, and technical design.",
+    "tools": ["multi-agent orchestration", "BGE M3 embeddings", "AI schema bridge"],
+    "implementation_status": "implemented_internal_or_seeded",
+    "public_safe": true,
+    "source_status": "approved_seed",
+    "confidence": "medium"
+  },
+  {
+    "id": "project_mcp_enabled_workflows",
+    "name": "MCP-Enabled Development Workflows",
+    "category": "Developer enablement",
+    "summary": "Integrated MCP-enabled tooling into development workflows with VS Code and Claude-based systems.",
+    "tools": ["VS Code", "Claude Code", "MCP"],
+    "implementation_status": "implemented_internal",
+    "public_safe": true,
+    "source_status": "approved_seed_plus_latest_resume",
+    "confidence": "high"
+  },
+  {
+    "id": "project_local_llm_experimentation",
+    "name": "Local LLM Experimentation",
+    "category": "Applied AI experimentation",
+    "summary": "Experimented with local LLM workflows using Ollama and LM Studio in support of practical workflow development and evaluation.",
+    "tools": ["Ollama", "LM Studio"],
+    "implementation_status": "evaluated_and_applied",
+    "public_safe": true,
+    "source_status": "approved_seed_plus_latest_resume",
+    "confidence": "high"
+  },
+  {
+    "id": "project_prompt_libraries_and_agentic_patterns",
+    "name": "Prompt Libraries and Agentic Workflow Patterns",
+    "category": "AI workflow enablement",
+    "summary": "Developed prompt libraries, modular agent concepts, and context-management patterns for enterprise workflow use cases.",
+    "tools": ["prompt engineering", "agentic workflow patterns", "context management"],
+    "implementation_status": "implemented_internal",
+    "public_safe": true,
+    "source_status": "approved_seed_plus_latest_resume",
+    "confidence": "high"
+  }
+]

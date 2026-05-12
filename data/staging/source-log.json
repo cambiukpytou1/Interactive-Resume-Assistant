@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "source_id": "latest_resume_enterprise_ai_pdf",
+      "label": "Igor_Yezhov_Enterprise_AI_Styled_Resume.pdf",
+      "source_type": "user_uploaded_file",
+      "priority_rank": 1,
+      "status": "authoritative_for_current_positioning"
+    },
+    {
+      "source_id": "legacy_resume_pdf",
+      "label": "Igor_Yezhov_Resume - 2025.docx.pdf",
+      "source_type": "user_uploaded_file",
+      "priority_rank": 4,
+      "status": "historical_reference"
+    },
+    {
+      "source_id": "interactive_resume_prd",
+      "label": "Interactive_Resume_MVP_PRD_TRD_Igor_Yezhov.docx",
+      "source_type": "user_uploaded_file",
+      "priority_rank": 3,
+      "status": "product_scope_and_guardrails"
+    },
+    {
+      "source_id": "rsm_client_facing_screenshot_1",
+      "label": "RSM client-facing resume screenshot 1",
+      "source_type": "file_wrapper",
+      "priority_rank": 2,
+      "status": "client_facing_enrichment",
+      "url": "https://www.genspark.ai/api/files/s/1ZJiRbnv"
+    },
+    {
+      "source_id": "direct_seed_notes",
+      "label": "User-provided resume and experience notes",
+      "source_type": "conversation_seed",
+      "priority_rank": 2,
+      "status": "approved_seed_or_needs_review"
+    },
+    {
+      "source_id": "claude_generated_seed",
+      "label": "resume-seed.json",
+      "source_type": "generated_seed",
+      "priority_rank": 5,
+      "status": "lowest_trust_reference"
+    }
+  ],
+  "source_status_legend": {
+    "resume_verified_latest_plus_client_facing_enrichment": "Grounded in the latest resume plus public-safe client-facing screenshot enrichment.",
+    "resume_verified_legacy": "Grounded in the older resume used for historical roles or details.",
+    "approved_seed": "Directly supplied or approved by the user, but not always present in the formal resume.",
+    "needs_confirmation": "Do not expose until explicitly approved.",
+    "restricted": "Never expose in public-safe chatbot answers."
+  }
+}

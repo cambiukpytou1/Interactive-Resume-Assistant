@@ -1,0 +1,17 @@
+[
+  {
+    "id": "template_project_addition_001",
+    "target_project_id": null,
+    "name": "",
+    "category": "",
+    "summary": "",
+    "tools": [],
+    "source_id": "",
+    "source_status": "approved_seed",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on",
+    "confidence": "medium",
+    "merge_recommendation": "review_then_create_or_update",
+    "notes": "Use for new project cards or chat-only projects."
+  }
+]

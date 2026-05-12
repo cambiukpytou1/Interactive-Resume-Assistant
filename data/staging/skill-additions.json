@@ -1,0 +1,15 @@
+[
+  {
+    "id": "template_skill_addition_001",
+    "group": "ai_and_workflows",
+    "name": "",
+    "level": "working",
+    "status": "hands_on",
+    "source_id": "",
+    "source_status": "approved_seed",
+    "public_safe": true,
+    "confidence": "medium",
+    "merge_recommendation": "review_then_add",
+    "notes": "Use for new tooling, platform depth, or revised confidence levels."
+  }
+]

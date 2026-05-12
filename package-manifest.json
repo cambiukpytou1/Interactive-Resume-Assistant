@@ -1,0 +1,18 @@
+{
+  "package_name": "igor-interactive-resume-bundle",
+  "created_date": "2026-05-10",
+  "contains": [
+    "Canonical seed data",
+    "Staging templates for future seed additions",
+    "Retrieval/indexing schema templates",
+    "Developer handoff docs",
+    "Chat system prompt draft",
+    "API contract draft"
+  ],
+  "primary_goal": "Provide a downloadable starter bundle for building the interactive resume MVP and supporting iterative seed enrichment.",
+  "notes": [
+    "This package includes structured content created from the conversation so far.",
+    "It does not include a running codebase yet.",
+    "Use `needs-confirmation.json` to keep uncertain items out of production retrieval until approved."
+  ]
+}

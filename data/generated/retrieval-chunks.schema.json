@@ -1,0 +1,18 @@
+{
+  "$schema_note": "Schema template for chunk generation and pgvector ingestion.",
+  "chunk_template": {
+    "chunk_id": "string",
+    "chunk_type": "profile_summary | role_summary | role_highlight | project_card | skill_entry | qa_pair | guardrail_rule",
+    "source_file": "string",
+    "source_record_id": "string",
+    "role_id": "string|null",
+    "project_id": "string|null",
+    "text": "string",
+    "source_status": "string",
+    "public_safe": true,
+    "implemented_or_conceptual": "string",
+    "tags": ["string"],
+    "priority": 1,
+    "last_updated": "YYYY-MM-DD"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "identity_and_public_profile": [
+    "Preferred public name (Igor vs Iggy)",
+    "LinkedIn URL",
+    "GitHub URL",
+    "Whether to include a public headshot"
+  ],
+  "contact_preferences": [
+    "Which email should be public in the app: personal or client-facing",
+    "Whether phone number should be shown publicly"
+  ],
+  "title_and_positioning": [
+    "Primary display title: 'Director, Data Analytics' vs 'Director, Data & Digital Solutions'",
+    "Whether 'Enterprise AI Workflow, Automation, Analytics, and Governance Leader' is the final headline"
+  ],
+  "project_naming_and_scope": [
+    "Whether MigrateIQ can be named publicly",
+    "Whether RSM DEQS can be named publicly",
+    "How strongly to present Boomi-related work",
+    "Whether AI-Assisted RFP Workflow System and Documentation Orchestration System are approved for public display or chat-only retrieval"
+  ],
+  "claim_boundaries": [
+    "Final approved wording for Boomi / integration experience",
+    "Final approved wording for embeddings and schema matching",
+    "Whether any numerical impact statements from screenshots should be preserved verbatim in public UI"
+  ]
+}

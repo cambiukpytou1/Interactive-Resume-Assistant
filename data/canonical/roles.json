@@ -1,0 +1,197 @@
+[
+  {
+    "id": "role_rsm_2020_present",
+    "company": "RSM US LLP",
+    "title": "Director, Data Analytics",
+    "client_facing_title": "Director, Data & Digital Solutions",
+    "start_date": "2020-04",
+    "end_date": "Present",
+    "location": "New York, NY",
+    "summary": "Leads analytics modernization, intelligent automation, workflow transformation, governance, and AI-assisted workflow development for enterprise clients and internal initiatives.",
+    "highlights": [
+      "Led analytics and digital transformation initiatives across financial services, healthcare, government, insurance, and commercial clients.",
+      "Built ERP-integrated accounts payable and billing automation workflows that reduced manual effort and improved operational timeliness.",
+      "Developed AI-assisted workflow concepts, modular agents, prompt libraries, and documentation automation patterns.",
+      "Used Claude, VS Code, Postman, MCP integrations, Ollama, and LM Studio in applied workflow experimentation and development support.",
+      "Oversaw Azure migration, semantic reporting layers, Snowflake and Power BI modernization, and stakeholder/vendor coordination.",
+      "Led or supported projects involving Boomi + SQL EDI workflows, migration accelerators, documentation agents, and data-quality tooling.",
+      "Supported top financial-services clients with assets ranging roughly from $50B to $2.4T on governance, controls, and transformation efforts.",
+      "Worked with or coordinated teams of up to 21 engineers across 15-20 projects per year in certain programs."
+    ],
+    "industries": [
+      "Financial Services",
+      "Healthcare",
+      "Government",
+      "Insurance",
+      "Technology",
+      "Commercial",
+      "Education"
+    ],
+    "tools_platforms": [
+      "Alteryx",
+      "Power BI",
+      "Snowflake",
+      "Azure",
+      "Azure Data Factory",
+      "SQL",
+      "Claude",
+      "VS Code",
+      "Microsoft Copilot Studio",
+      "Ollama",
+      "LM Studio",
+      "Postman",
+      "MCP Server Integrations",
+      "Power Automate",
+      "Boomi"
+    ],
+    "regulations_frameworks": [
+      "OCC examinations",
+      "SOX readiness",
+      "HIPAA pricing transparency",
+      "Federal consent orders",
+      "Governance and controls"
+    ],
+    "source_status": "resume_verified_latest_plus_client_facing_enrichment",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on_and_team_led",
+    "confidence": "high",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "id": "role_pwc_2015_2020",
+    "company": "PwC",
+    "title": "Manager – Digital Accelerator / Audit Manager",
+    "start_date": "2015-11",
+    "end_date": "2020-04",
+    "location": "New York, NY",
+    "summary": "Managed internal audit, IT risk assessment, issue validation, and automation-oriented delivery across banking, asset management, and education clients.",
+    "highlights": [
+      "Developed IT risk assessment methodologies aligned to NIST, ISO, and COBIT.",
+      "Built or supported automation workflows that improved audit efficiency and budget performance.",
+      "Led work across IT governance, data governance, security, business continuity, and vendor risk domains.",
+      "Reported savings including roughly 30% budget savings via automation and over 20% reductions through delivery optimization in certain engagements."
+    ],
+    "industries": [
+      "Banking",
+      "Asset Management",
+      "Education"
+    ],
+    "tools_platforms": [
+      "Alteryx",
+      "UiPath",
+      "Tableau"
+    ],
+    "regulations_frameworks": [
+      "NIST",
+      "ISO",
+      "COBIT"
+    ],
+    "source_status": "resume_verified_legacy",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on_and_team_led",
+    "confidence": "high",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "id": "role_ey_2013_2015",
+    "company": "Ernst & Young",
+    "title": "Senior IT Auditor",
+    "start_date": "2013-06",
+    "end_date": "2015-10",
+    "location": "New York, NY",
+    "summary": "Performed IT general controls, SOX, SOC, and application-control testing for financial-services, insurance, and exchange-related environments.",
+    "highlights": [
+      "Executed application control testing and ITGC testing.",
+      "Supported SOC 1 and SOC 2 reporting and related audit work.",
+      "Worked with Oracle, SQL Server, MySQL, Sybase, PeopleSoft, Hyperion, AWS, Linux/Unix, and Imperva."
+    ],
+    "industries": [
+      "Financial Services",
+      "Insurance",
+      "Global Stock Exchanges"
+    ],
+    "tools_platforms": [
+      "Oracle",
+      "SQL Server",
+      "MySQL",
+      "Sybase",
+      "PeopleSoft",
+      "Hyperion",
+      "AWS",
+      "Linux",
+      "Unix/AIX",
+      "Imperva"
+    ],
+    "regulations_frameworks": [
+      "SOX",
+      "SSAE 18",
+      "SOC 1",
+      "SOC 2",
+      "PCAOB"
+    ],
+    "source_status": "resume_verified_legacy",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on",
+    "confidence": "high",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "id": "role_gt_2011_2012",
+    "company": "Grant Thornton",
+    "title": "Intern – IT Auditor",
+    "start_date": "2011-11",
+    "end_date": "2012-08",
+    "location": "New York, NY",
+    "summary": "Assisted operational and technology risk reviews across banking, technology, produce, and energy environments.",
+    "highlights": [
+      "Supported operational infrastructure reviews and audit work.",
+      "Worked across ERP and enterprise environments including Oracle Financials and other legacy systems."
+    ],
+    "industries": [
+      "Banking",
+      "Technology",
+      "Produce",
+      "Energy"
+    ],
+    "tools_platforms": [
+      "Great Plains",
+      "JDE",
+      "MAX",
+      "Oasis UTA & IDT",
+      "OS400",
+      "Oracle Financials"
+    ],
+    "regulations_frameworks": [],
+    "source_status": "resume_verified_legacy",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on",
+    "confidence": "medium",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "id": "role_irs_2009_2011",
+    "company": "Internal Revenue Service",
+    "title": "Examiner",
+    "start_date": "2009-05",
+    "end_date": "2011-11",
+    "location": "Philadelphia, PA",
+    "summary": "Audited tax returns and applied federal and state tax code requirements in a high-volume compliance environment.",
+    "highlights": [
+      "Audited roughly 300 tax returns annually.",
+      "Applied federal and state tax codes in examination workflows."
+    ],
+    "industries": [
+      "Government"
+    ],
+    "tools_platforms": [],
+    "regulations_frameworks": [
+      "Federal tax code",
+      "State tax code"
+    ],
+    "source_status": "resume_verified_legacy",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on",
+    "confidence": "high",
+    "last_updated": "2026-05-10"
+  }
+]

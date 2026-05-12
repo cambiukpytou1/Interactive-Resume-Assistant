@@ -1,0 +1,23 @@
+{
+  "build_status": "template_only",
+  "embedding_model": "text-embedding-3-small",
+  "vector_dimensions": 1536,
+  "canonical_sources": [
+    "data/canonical/profile.json",
+    "data/canonical/roles.json",
+    "data/canonical/projects.json",
+    "data/canonical/skills.json",
+    "data/canonical/guardrails.json",
+    "data/canonical/interview-qa.md"
+  ],
+  "exclusions": [
+    "data/canonical/needs-confirmation.json",
+    "Any staging file",
+    "Any record with public_safe=false",
+    "Any record with source_status=needs_confirmation or restricted"
+  ],
+  "retrieval_defaults": {
+    "top_k_retrieve": 8,
+    "top_k_answer_context": 5
+  }
+}

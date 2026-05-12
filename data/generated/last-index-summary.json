@@ -1,0 +1,5 @@
+{
+  "status": "not_indexed_yet",
+  "notes": "This bundle includes data and schema templates only. Embeddings and chunk generation should be run after the developer finalizes the canonical content.",
+  "recommended_next_step": "Generate chunks from canonical files, embed with text-embedding-3-small, and upsert into Supabase pgvector."
+}
