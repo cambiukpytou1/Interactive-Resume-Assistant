@@ -1,6 +1,6 @@
 # Interactive Resume Assistant
 
-Interactive Resume Assistant is a production-ready Next.js application for presenting Igor Yezhov's public-safe resume knowledge as a recruiter-friendly dashboard with grounded chat, semantic vector retrieval, and safe rule-based fallback.
+Interactive Resume Assistant is a production-ready Next.js application for presenting public-safe career knowledge as a recruiter-friendly dashboard with grounded chat, semantic vector retrieval, and safe rule-based fallback.
 
 ## Current state
 
@@ -107,7 +107,7 @@ Both OpenAI and Supabase must be configured for vector retrieval to activate. If
 
 ```json
 // POST /api/chat
-{ "question": "What kind of AI work has Igor actually done?" }
+{ "question": "What kind of AI work has I.Y. actually done?" }
 
 // Response
 {

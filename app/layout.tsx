@@ -2,8 +2,8 @@ import '@/app/globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Igor Yezhov | Interactive Resume MVP',
-  description: 'Interactive resume dashboard and AI interview assistant for Igor Yezhov.'
+  title: 'I.Y. | Enterprise AI & Analytics Leader',
+  description: 'Interactive resume and AI interview assistant for an enterprise AI workflow, automation, analytics, and governance leader.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

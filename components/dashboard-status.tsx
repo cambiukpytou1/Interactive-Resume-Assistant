@@ -13,16 +13,16 @@ export function DashboardStatus({
   hasRetrievalLayer,
   retrievalModeLabel,
   vectorReady,
-  nextLayer
+  nextLayer: _nextLayer
 }: DashboardStatusProps) {
   return (
     <section className="grid gap-4 lg:grid-cols-[1fr_1fr]">
       <article className="panel p-5">
-        <p className="text-sm font-medium text-slate-500">MVP status</p>
-        <h2 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900">Dashboard is testable and repo-ready</h2>
+        <p className="text-sm font-medium text-slate-500">About this assistant</p>
+        <h2 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900">Grounded in approved resume knowledge</h2>
         <p className="mt-3 text-sm leading-7 text-slate-700">
-          The current build includes a recruiter-facing dashboard, a working chat API, generated retrieval artifacts, public-safe guardrails,
-          and deployment scaffolding for a future vector layer.
+          This dashboard presents verified, public-safe career information. The AI chat answers recruiter-style questions
+          using only the approved knowledge base — it will not invent claims or disclose restricted details.
         </p>
       </article>
       <article className="panel p-5">
@@ -37,7 +37,7 @@ export function DashboardStatus({
           </div>
           <div>
             <p className="text-sm font-medium text-slate-500">Retrieval</p>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-blue-700">{hasRetrievalLayer ? 'Enabled' : 'Pending'}</p>
+            <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-blue-700">{hasRetrievalLayer ? 'Active' : 'Pending'}</p>
           </div>
           <div>
             <p className="text-sm font-medium text-slate-500">Mode</p>
@@ -46,10 +46,9 @@ export function DashboardStatus({
         </div>
         <p className="mt-4 text-sm leading-7 text-slate-700">
           {vectorReady
-            ? 'Optional vector retrieval is configured. The API will try semantic retrieval first and fall back safely when needed.'
-            : 'The app currently runs in rule-based mode and is ready to adopt vector retrieval later through environment configuration.'}
+            ? 'Semantic retrieval is active. Questions are matched against the knowledge base using vector similarity.'
+            : 'Answers are matched using rule-based retrieval across roles, projects, skills, and Q&A.'}
         </p>
-        <p className="mt-3 text-sm leading-7 text-slate-700">Next layer: {nextLayer}</p>
       </article>
     </section>
   );

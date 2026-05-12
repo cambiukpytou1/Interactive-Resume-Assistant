@@ -6,7 +6,7 @@ export function Hero({ profile }: { profile: Profile }) {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(37,99,235,0.32),transparent_32%),radial-gradient(circle_at_bottom_left,rgba(14,165,233,0.18),transparent_28%)]" />
       <div className="relative grid gap-8 px-6 py-10 sm:px-8 lg:grid-cols-[1.4fr_0.9fr] lg:px-10 lg:py-12">
         <div>
-          <span className="badge border-blue-400/30 bg-blue-500/10 text-blue-100">Interactive Resume MVP</span>
+          <span className="badge border-blue-400/30 bg-blue-500/10 text-blue-100">Interactive Resume</span>
           <h1 className="mt-5 text-4xl font-semibold tracking-tight sm:text-5xl">{profile.name}</h1>
           <p className="mt-4 max-w-3xl text-lg text-slate-200">{profile.headline}</p>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">{profile.medium_public_summary}</p>

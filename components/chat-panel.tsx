@@ -11,12 +11,12 @@ type Message = {
 };
 
 const starters = [
-  'What kind of AI work has Igor actually done?',
-  'How should Igor be positioned for enterprise AI transformation roles?',
-  'What is Igor\'s governance background?',
-  'What tools has Igor used recently?',
-  'Has Igor deployed production AI externally?',
-  'Why is Igor a fit for workflow orchestration roles?'
+  'What kind of AI work has I.Y. actually done?',
+  'How should I.Y. be positioned for enterprise AI transformation roles?',
+  "What is I.Y.'s governance background?",
+  'What tools has I.Y. used recently?',
+  'Has I.Y. deployed production AI externally?',
+  'Why is I.Y. a fit for workflow orchestration roles?'
 ];
 
 const statusLabel: Record<string, string> = {
@@ -37,7 +37,7 @@ export function ChatPanel() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      text: 'Ask a recruiter-style question about Igor\'s approved resume knowledge base.',
+      text: "Ask a recruiter-style question about I.Y.'s approved resume knowledge base.",
       answer_status: 'answered',
       retrieval_mode: 'rule_based'
     }
@@ -73,7 +73,7 @@ export function ChatPanel() {
         ...prev,
         {
           role: 'assistant',
-          text: 'There was a problem reaching the chat API. Try again after the local app is running.',
+          text: 'There was a problem reaching the chat API. Please try again.',
           answer_status: 'not_in_kb',
           retrieval_mode: 'rule_based'
         }
@@ -89,7 +89,7 @@ export function ChatPanel() {
         <div>
           <h2 className="section-title">AI interview assistant</h2>
           <p className="section-subtitle">
-            This build runs in rule-based mode by default and can switch to vector retrieval later without changing the chat experience.
+            Ask recruiter-style questions and get grounded answers drawn from the approved knowledge base.
           </p>
         </div>
         <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800 sm:max-w-xs">

@@ -1,18 +1,18 @@
 {
   "id": "igor_yezhov_profile",
-  "name": "Igor Yezhov",
+  "name": "I.Y.",
   "preferred_name": null,
   "headline": "Enterprise AI Workflow, Automation, Analytics, and Governance Leader",
   "tagline": "Governance-aware enterprise workflow strategist focused on practical AI, analytics modernization, and orchestration.",
-  "location": "Whitestone, NY",
+  "location": "***, NY",
   "contact_variants": {
     "personal": {
-      "email": "igoryezhov@gmail.com",
-      "phone": "(347) 603-3788"
+      "email": "***@***.***",
+      "phone": "(***) ***-****"
     },
     "client_facing": {
-      "email": "Igor.Yezhov@rsmus.com",
-      "phone": "+1 347 603 3788"
+      "email": "***@***.***",
+      "phone": "+1 *** ***-****"
     }
   },
   "experience_summary": {
@@ -46,12 +46,12 @@
     "Not positioned as a research scientist",
     "Not positioned as a production AI platform engineer"
   ],
-  "short_public_summary": "Igor Yezhov is a director-level enterprise leader with 16 years of experience spanning analytics, governance, automation, and applied AI workflows across financial services, healthcare, government, insurance, and technology.",
-  "medium_public_summary": "Igor leads analytics modernization, intelligent automation, and governance-aware workflow transformation. His experience blends enterprise controls, operating-model design, data and reporting modernization, prompt engineering, modular agent concepts, and practical AI-assisted workflow development.",
+  "short_public_summary": "I.Y. is a director-level enterprise leader with 16 years of experience spanning analytics, governance, automation, and applied AI workflows across financial services, healthcare, government, insurance, and technology.",
+  "medium_public_summary": "I.Y. leads analytics modernization, intelligent automation, and governance-aware workflow transformation. Their experience blends enterprise controls, operating-model design, data and reporting modernization, prompt engineering, modular agent concepts, and practical AI-assisted workflow development.",
   "source_status": "resume_verified_latest_plus_client_facing_enrichment",
   "public_safe": true,
   "implemented_or_conceptual": "hands_on_and_team_led",
   "confidence": "high",
-  "last_updated": "2026-05-10",
-  "notes": "Built from the latest enterprise-AI-styled resume, older resume for historical context, user-provided seed knowledge, and client-facing RSM screenshots."
+  "last_updated": "2026-05-12",
+  "notes": "Built from the latest enterprise-AI-styled resume, older resume for historical context, user-provided seed knowledge, and client-facing screenshots."
 }

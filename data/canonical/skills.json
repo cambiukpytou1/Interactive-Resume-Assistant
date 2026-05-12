@@ -44,8 +44,8 @@
     {"name": "Business development support", "level": "working", "status": "hands_on", "source_status": "seed_and_client_facing"}
   ],
   "explicit_boundaries": [
-    "Do not present Igor as a deep ML engineer.",
-    "Do not present Igor as an expert Python software developer.",
+    "Do not present I.Y. as a deep ML engineer.",
+    "Do not present I.Y. as an expert Python software developer.",
     "Do not claim external production AI deployment unless specifically and safely verified.",
     "Do not claim proprietary prompt libraries or internal frameworks can be disclosed in detail.",
     "Do not overstate Boomi, MuleSoft, or other platform depth beyond approved, confirmed wording."

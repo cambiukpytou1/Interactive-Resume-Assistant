@@ -35,7 +35,7 @@ function answerFromTopChunks(chunks: RetrievalChunk[], citations: ChatCitation[]
   }
 
   if (top.chunkType === 'project_card') {
-    let answer = `${top.title} is one of the strongest matching examples in Igor's approved knowledge base. ${top.text}`;
+    let answer = `${top.title} is one of the strongest matching examples in the approved knowledge base. ${top.text}`;
     if (second && second.sourceRecordId !== top.sourceRecordId && ['role_summary', 'role_highlight'].includes(second.chunkType)) {
       answer += ` Related experience context: ${toSentenceCase(second.text)}`;
     }
@@ -68,7 +68,7 @@ export function isRestrictedQuestion(question: string) {
 export function buildGuardrailRefusal(retrievalMode: RetrievalMode = 'rule_based'): ChatResult {
   return {
     answer:
-      'I can summarize Igor\'s public-safe capabilities, but I can\'t provide proprietary prompts, confidential client details, or restricted internal materials.',
+      'I can summarize the public-safe capabilities on record, but I can\'t provide proprietary prompts, confidential client details, or restricted internal materials.',
     answer_status: 'refused_guardrail',
     citations: [{ label: 'Guardrails', source_record_id: 'guardrails' }],
     retrieval_mode: retrievalMode
@@ -134,7 +134,7 @@ export function answerQuestion(
   if (/contact|email|reach|phone/.test(lowerQuestion)) {
     addCitation(citations, 'Profile', data.profile.id);
     return {
-      answer: 'The approved profile currently contains both a personal and a client-facing contact variant. Final public display should follow the selections in the confirmation checklist before production launch.',
+      answer: 'Contact details are kept private in this public build. Please use the contact prompt on the page to get in touch.',
       answer_status: 'answered',
       citations,
       retrieval_mode: retrievalMode
