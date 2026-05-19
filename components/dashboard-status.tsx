@@ -4,7 +4,6 @@ type DashboardStatusProps = {
   hasRetrievalLayer: boolean;
   retrievalModeLabel: string;
   vectorReady: boolean;
-  nextLayer: string;
 };
 
 export function DashboardStatus({
@@ -12,8 +11,7 @@ export function DashboardStatus({
   projectCount,
   hasRetrievalLayer,
   retrievalModeLabel,
-  vectorReady,
-  nextLayer: _nextLayer
+  vectorReady
 }: DashboardStatusProps) {
   return (
     <section className="grid gap-4 lg:grid-cols-[1fr_1fr]">

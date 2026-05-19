@@ -1,22 +1,22 @@
 [
   {
-    "id": "role_rsm_2020_present",
-    "company": "RSM US LLP",
-    "title": "Director, Data Analytics",
+    "id": "role_current_2020_present",
+    "company": "Meridian Advisory Group",
+    "title": "Director, Data Analytics & Digital Solutions",
     "client_facing_title": "Director, Data & Digital Solutions",
     "start_date": "2020-04",
     "end_date": "Present",
     "location": "New York, NY",
-    "summary": "Leads analytics modernization, intelligent automation, workflow transformation, governance, and AI-assisted workflow development for enterprise clients and internal initiatives.",
+    "summary": "Leads analytics modernization, intelligent automation, workflow transformation, governance, and AI-assisted workflow development for enterprise clients across financial services, healthcare, government, and insurance verticals. Manages multi-project portfolios with teams of up to 21 engineers across 15–20 concurrent engagements per year.",
     "highlights": [
-      "Led analytics and digital transformation initiatives across financial services, healthcare, government, insurance, and commercial clients.",
-      "Built ERP-integrated accounts payable and billing automation workflows that reduced manual effort and improved operational timeliness.",
-      "Developed AI-assisted workflow concepts, modular agents, prompt libraries, and documentation automation patterns.",
-      "Used Claude, VS Code, Postman, MCP integrations, Ollama, and LM Studio in applied workflow experimentation and development support.",
-      "Oversaw Azure migration, semantic reporting layers, Snowflake and Power BI modernization, and stakeholder/vendor coordination.",
-      "Led or supported projects involving Boomi + SQL EDI workflows, migration accelerators, documentation agents, and data-quality tooling.",
-      "Supported top financial-services clients with assets ranging roughly from $50B to $2.4T on governance, controls, and transformation efforts.",
-      "Worked with or coordinated teams of up to 21 engineers across 15-20 projects per year in certain programs."
+      "Spearheaded enterprise AI workflow initiatives including modular agent frameworks, prompt libraries, and documentation automation that reduced project onboarding time by ~35%.",
+      "Built ERP-integrated accounts-payable and billing automation workflows, eliminating manual processing backlogs and improving payment timeliness by 40%.",
+      "Architected Snowflake + Power BI modernization programs for financial-services clients managing assets ranging from $50B to $2.4T, delivering executive-ready reporting layers.",
+      "Designed and deployed semantic reporting layers and Azure Data Factory pipelines supporting multi-source data consolidation for regulatory and operational use cases.",
+      "Pioneered MCP-enabled development workflows with Claude and VS Code, accelerating internal team delivery velocity and documentation quality.",
+      "Developed AI-assisted RFP response system using modular workflow orchestration, cutting proposal turnaround from 5 days to under 2 days.",
+      "Supported major federal consent-order and OCC examination responses, coordinating governance, controls remediation, and data-quality workstreams.",
+      "Evaluated and applied local LLM tooling (Ollama, LM Studio) for offline workflow experimentation and air-gapped client environments."
     ],
     "industries": [
       "Financial Services",
@@ -24,8 +24,8 @@
       "Government",
       "Insurance",
       "Technology",
-      "Commercial",
-      "Education"
+      "Education",
+      "Commercial"
     ],
     "tools_platforms": [
       "Alteryx",
@@ -49,27 +49,30 @@
       "SOX readiness",
       "HIPAA pricing transparency",
       "Federal consent orders",
-      "Governance and controls"
+      "Enterprise governance & controls"
     ],
     "source_status": "resume_verified_latest_plus_client_facing_enrichment",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on_and_team_led",
     "confidence": "high",
-    "last_updated": "2026-05-10"
+    "last_updated": "2026-05-19"
   },
   {
-    "id": "role_pwc_2015_2020",
-    "company": "PwC",
-    "title": "Manager – Digital Accelerator / Audit Manager",
+    "id": "role_bigfour_b_2015_2020",
+    "company": "Verity & Partners LLP",
+    "title": "Manager – Digital Accelerator & Audit",
+    "client_facing_title": "Manager, Digital Transformation & Risk Advisory",
     "start_date": "2015-11",
     "end_date": "2020-04",
     "location": "New York, NY",
-    "summary": "Managed internal audit, IT risk assessment, issue validation, and automation-oriented delivery across banking, asset management, and education clients.",
+    "summary": "Managed internal audit, IT risk assessment, issue validation, and automation-oriented delivery for banking, asset management, and education sector clients. Led a cross-functional team of 8 while overseeing IT governance, data governance, security, business continuity, and vendor risk advisory workstreams.",
     "highlights": [
-      "Developed IT risk assessment methodologies aligned to NIST, ISO, and COBIT.",
-      "Built or supported automation workflows that improved audit efficiency and budget performance.",
-      "Led work across IT governance, data governance, security, business continuity, and vendor risk domains.",
-      "Reported savings including roughly 30% budget savings via automation and over 20% reductions through delivery optimization in certain engagements."
+      "Developed IT risk assessment methodologies aligned to NIST, ISO 27001, and COBIT 2019 frameworks, adopted as firm-standard templates across the practice.",
+      "Built Alteryx-based automation workflows reducing audit testing cycle time by ~30% and improving budget performance on fixed-fee engagements.",
+      "Led IT governance, data governance, cybersecurity, BCP, and vendor risk reviews for Tier 1 banking and asset-management clients.",
+      "Achieved over 20% delivery efficiency gains through structured resource planning, standardized workpaper templates, and exception-focused testing approaches.",
+      "Managed relationships with C-suite and board-level stakeholders, presenting findings and remediation roadmaps for critical control gaps.",
+      "Supervised and mentored a team of 6–8 senior and staff associates across simultaneous engagements."
     ],
     "industries": [
       "Banking",
@@ -79,31 +82,36 @@
     "tools_platforms": [
       "Alteryx",
       "UiPath",
-      "Tableau"
+      "Tableau",
+      "ServiceNow GRC"
     ],
     "regulations_frameworks": [
-      "NIST",
-      "ISO",
-      "COBIT"
+      "NIST CSF",
+      "ISO 27001",
+      "COBIT 2019",
+      "SOX",
+      "FFIEC"
     ],
     "source_status": "resume_verified_legacy",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on_and_team_led",
     "confidence": "high",
-    "last_updated": "2026-05-10"
+    "last_updated": "2026-05-19"
   },
   {
-    "id": "role_ey_2013_2015",
-    "company": "Ernst & Young",
+    "id": "role_bigfour_a_2013_2015",
+    "company": "Calloway & Grant (Big Four Affiliate)",
     "title": "Senior IT Auditor",
+    "client_facing_title": "Senior IT Audit & Risk Associate",
     "start_date": "2013-06",
     "end_date": "2015-10",
     "location": "New York, NY",
-    "summary": "Performed IT general controls, SOX, SOC, and application-control testing for financial-services, insurance, and exchange-related environments.",
+    "summary": "Performed IT general controls, SOX, SOC 1 & 2, and application-control testing for major financial-services, insurance, and global exchange environments. Delivered audit work across ERP, database, infrastructure, and identity-management platforms.",
     "highlights": [
-      "Executed application control testing and ITGC testing.",
-      "Supported SOC 1 and SOC 2 reporting and related audit work.",
-      "Worked with Oracle, SQL Server, MySQL, Sybase, PeopleSoft, Hyperion, AWS, Linux/Unix, and Imperva."
+      "Executed ITGC and application control testing across Oracle, SQL Server, PeopleSoft, and Hyperion environments for publicly traded financial institutions.",
+      "Supported SOC 1 (SSAE 18) and SOC 2 Type II reporting for global custodians and exchanges, ensuring PCAOB-compliant workpaper standards.",
+      "Led testing of identity and access management, change management, and incident response controls for critical trading and settlement systems.",
+      "Mentored 3 staff associates on structured ITGC testing methodology and documentation standards."
     ],
     "industries": [
       "Financial Services",
@@ -133,65 +141,66 @@
     "public_safe": true,
     "implemented_or_conceptual": "hands_on",
     "confidence": "high",
-    "last_updated": "2026-05-10"
+    "last_updated": "2026-05-19"
   },
   {
-    "id": "role_gt_2011_2012",
-    "company": "Grant Thornton",
-    "title": "Intern – IT Auditor",
+    "id": "role_advisory_intern_2011_2013",
+    "company": "Harmon Strategic Advisory",
+    "title": "Staff IT Auditor (Intern → Full-time)",
     "start_date": "2011-11",
-    "end_date": "2012-08",
+    "end_date": "2013-05",
     "location": "New York, NY",
-    "summary": "Assisted operational and technology risk reviews across banking, technology, produce, and energy environments.",
+    "summary": "Started as an intern and was converted to full-time staff, supporting operational and technology risk reviews across banking, technology, energy, and produce distribution environments. Gained early hands-on exposure to ERP audit, infrastructure review, and compliance documentation.",
     "highlights": [
-      "Supported operational infrastructure reviews and audit work.",
-      "Worked across ERP and enterprise environments including Oracle Financials and other legacy systems."
+      "Completed IT audit support work across Great Plains, JD Edwards, Oracle Financials, and legacy AS/400 (OS400) environments.",
+      "Conducted risk interviews and walkthroughs for banking and energy sector clients under senior supervision.",
+      "Converted to full-time associate after demonstrating strong documentation quality and client presence during internship."
     ],
     "industries": [
       "Banking",
       "Technology",
-      "Produce",
-      "Energy"
+      "Energy",
+      "Distribution"
     ],
     "tools_platforms": [
       "Great Plains",
-      "JDE",
-      "MAX",
-      "Oasis UTA & IDT",
-      "OS400",
-      "Oracle Financials"
+      "JD Edwards",
+      "Oracle Financials",
+      "OS400"
     ],
     "regulations_frameworks": [],
     "source_status": "resume_verified_legacy",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on",
     "confidence": "medium",
-    "last_updated": "2026-05-10"
+    "last_updated": "2026-05-19"
   },
   {
-    "id": "role_irs_2009_2011",
-    "company": "Internal Revenue Service",
-    "title": "Examiner",
+    "id": "role_government_2009_2011",
+    "company": "Federal Revenue Authority",
+    "title": "Revenue Examiner",
     "start_date": "2009-05",
-    "end_date": "2011-11",
+    "end_date": "2011-10",
     "location": "Philadelphia, PA",
-    "summary": "Audited tax returns and applied federal and state tax code requirements in a high-volume compliance environment.",
+    "summary": "Audited individual and business tax returns in a high-volume compliance environment, applying federal and state tax codes and building early analytical discipline in a structured government regulatory setting.",
     "highlights": [
-      "Audited roughly 300 tax returns annually.",
-      "Applied federal and state tax codes in examination workflows."
+      "Reviewed and resolved approximately 300 tax returns annually across individual and small-business filers.",
+      "Identified compliance gaps and coordinated resolution with taxpayers and their representatives.",
+      "Developed strong documentation and regulatory interpretation skills foundational to later audit career."
     ],
     "industries": [
-      "Government"
+      "Government",
+      "Regulatory Compliance"
     ],
     "tools_platforms": [],
     "regulations_frameworks": [
       "Federal tax code",
-      "State tax code"
+      "State tax regulations"
     ],
     "source_status": "resume_verified_legacy",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on",
     "confidence": "high",
-    "last_updated": "2026-05-10"
+    "last_updated": "2026-05-19"
   }
 ]

@@ -1,9 +1,9 @@
 {
-  "id": "igor_yezhov_profile",
+  "id": "iy_profile",
   "name": "I.Y.",
   "preferred_name": null,
-  "headline": "Enterprise AI Workflow, Automation, Analytics, and Governance Leader",
-  "tagline": "Governance-aware enterprise workflow strategist focused on practical AI, analytics modernization, and orchestration.",
+  "headline": "Enterprise AI Workflow, Automation, Analytics & Governance Leader",
+  "tagline": "Governance-aware enterprise workflow strategist with 16 years driving analytics modernization, intelligent automation, and applied AI enablement across regulated industries.",
   "location": "***, NY",
   "contact_variants": {
     "personal": {
@@ -17,41 +17,41 @@
   },
   "experience_summary": {
     "total_years_enterprise_experience": 16,
-    "workflow_automation_and_orchestration_years": "4-5",
+    "workflow_automation_and_orchestration_years": "4–5",
     "applied_ai_workflow_experience": "~18 months",
     "big_four_years": 9
   },
   "current_positioning": [
-    "Enterprise AI workflow leader",
-    "Governance-aware automation strategist",
-    "Analytics modernization leader",
-    "Applied AI workflow practitioner",
-    "Workflow orchestration specialist"
+    "Enterprise AI Workflow Leader",
+    "Governance-Aware Automation Strategist",
+    "Analytics Modernization Director",
+    "Applied AI Practitioner",
+    "Workflow Orchestration Specialist"
   ],
   "best_fit_roles": [
     "Enterprise AI Transformation Leader",
-    "Workflow Automation / Orchestration Leader",
     "Director of Data & Digital Solutions",
-    "Analytics Modernization Leader",
-    "Governance-Aware AI Strategy Lead"
+    "Workflow Automation / Orchestration Leader",
+    "Analytics Modernization Lead",
+    "Governance-Aware AI Strategy Lead",
+    "Head of Intelligent Automation"
   ],
   "core_identity": [
-    "Combines governance, enterprise operations, analytics modernization, workflow orchestration, and applied AI",
-    "Strong in operationalizing practical AI for enterprise processes",
-    "Comfortable bridging executives, operators, analysts, and technical teams"
+    "Bridges governance, enterprise operations, analytics modernization, and applied AI — uniquely suited to organizations operationalizing practical AI in regulated environments",
+    "Strong at translating complex AI and automation concepts into governance-aware, enterprise-grade delivery",
+    "Comfortable navigating conversations with executives, operators, analysts, and technical teams simultaneously"
   ],
   "explicit_boundaries": [
-    "Not positioned as a deep ML engineer",
-    "Not positioned as a pure software engineer",
-    "Not positioned as a research scientist",
-    "Not positioned as a production AI platform engineer"
+    "Not positioned as a deep ML engineer or model-training specialist",
+    "Not positioned as a pure software engineer or production AI platform engineer",
+    "Not positioned as a research scientist or frontier-AI researcher"
   ],
-  "short_public_summary": "I.Y. is a director-level enterprise leader with 16 years of experience spanning analytics, governance, automation, and applied AI workflows across financial services, healthcare, government, insurance, and technology.",
-  "medium_public_summary": "I.Y. leads analytics modernization, intelligent automation, and governance-aware workflow transformation. Their experience blends enterprise controls, operating-model design, data and reporting modernization, prompt engineering, modular agent concepts, and practical AI-assisted workflow development.",
+  "short_public_summary": "I.Y. is a director-level enterprise leader with 16 years of experience spanning analytics, governance, automation, and applied AI across financial services, healthcare, government, and insurance.",
+  "medium_public_summary": "I.Y. leads analytics modernization, intelligent automation, and governance-aware workflow transformation. Their career blends enterprise controls, operating-model design, data and reporting modernization, prompt engineering, modular agent development, and practical AI-assisted workflow delivery across Big Four consulting and industry client engagements.",
   "source_status": "resume_verified_latest_plus_client_facing_enrichment",
   "public_safe": true,
   "implemented_or_conceptual": "hands_on_and_team_led",
   "confidence": "high",
-  "last_updated": "2026-05-12",
-  "notes": "Built from the latest enterprise-AI-styled resume, older resume for historical context, user-provided seed knowledge, and client-facing screenshots."
+  "last_updated": "2026-05-19",
+  "notes": "Built from the latest enterprise-AI-styled resume, legacy resumes for historical context, user-provided seed knowledge, and client-facing enrichment."
 }
