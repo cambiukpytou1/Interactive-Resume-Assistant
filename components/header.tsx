@@ -10,8 +10,8 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 backdrop-blur">
       <div className="container-shell flex h-16 items-center justify-between gap-4">
         <div>
-          <p className="text-sm font-semibold tracking-wide text-slate-900">Igor Yezhov</p>
-          <p className="text-xs text-slate-500">Interactive Resume MVP</p>
+          <p className="text-sm font-semibold tracking-wide text-slate-900">I.Y.</p>
+          <p className="text-xs text-slate-500">Enterprise AI &amp; Analytics Leader</p>
         </div>
         <nav className="hidden items-center gap-2 md:flex">
           {navItems.map((item) => (
