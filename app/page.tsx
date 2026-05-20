@@ -184,6 +184,9 @@ export default async function LandingPage() {
             <Link href="/resume" className="text-sm text-slate-500 hover:text-slate-300 transition-colors">
               Resume
             </Link>
+            <Link href="/evaluate" className="text-sm text-slate-500 hover:text-slate-300 transition-colors">
+              Job Fit
+            </Link>
             <Link href="/chat" className="text-sm text-slate-500 hover:text-slate-300 transition-colors">
               AI Chat
             </Link>

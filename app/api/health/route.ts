@@ -12,7 +12,7 @@ export async function GET() {
     environment: runtime.environment,
     retrieval_mode: runtime.retrievalMode,
     vector_retrieval_enabled: runtime.vectorRetrievalEnabled,
-    openai_configured: runtime.openaiConfigured,
+    nvidia_configured: runtime.nvidiaConfigured,
     supabase_configured: runtime.supabaseConfigured,
     embedding_model: runtime.embeddingModel,
     role_count: data.roles.length,
