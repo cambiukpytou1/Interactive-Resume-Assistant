@@ -7,15 +7,19 @@
     "start_date": "2020-04",
     "end_date": "Present",
     "location": "New York, NY",
-    "summary": "Leads analytics modernization, intelligent automation, workflow transformation, governance, and AI-assisted workflow development for enterprise clients across financial services, healthcare, government, and insurance verticals. Manages multi-project portfolios with teams of up to 21 engineers across 15–20 concurrent engagements per year.",
+    "summary": "Leads analytics modernization, intelligent automation, AI-assisted workflow development, governance, and enterprise integration for clients across financial services, healthcare, government, insurance, technology, and education. Manages multi-project portfolios with teams of up to 21 engineers across 15–20 concurrent engagements per year. Serves as a cross-functional connector — working with leaders across Audit & Assurance, Consulting, and Technology to identify strategic goals, align on shared initiatives, and leverage existing capabilities to accelerate outcomes.",
     "highlights": [
-      "Spearheaded enterprise AI workflow initiatives including modular agent frameworks, prompt libraries, and documentation automation that reduced project onboarding time by ~35%.",
+      "Architected MigrateIQ, an AI-powered data migration accelerator using BGE-M3 semantic embeddings and LLM-assisted disambiguation with auditable decision trails in SQL Server — reducing manual mapping effort by 80–85% while maintaining full traceability.",
+      "Led Boomi integration delivery and AI agent deployment for a private aviation group — standing up five production AI agents on an Agent Control Tower with RBAC, hallucination detection, audit trails, and observability dashboards.",
+      "Led AI-powered data ingestion for a financial settlements firm — building tiered PDF extraction (LLM prompt optimization, Azure Document Intelligence, Mistral OCR fallback) feeding Snowflake.",
+      "Designed multi-agent documentation systems converting project intake into structured delivery artifacts using defined tools, hooks, and reusable skills — improving consistency, scalability, and auditability.",
+      "Partnered with Audit & Assurance leaders to design and prototype AI Audit Agents, applying agentic AI patterns to enhance audit planning, evidence gathering, and risk assessment workflows.",
+      "Supported multiple Top 20 financial services clients ($50B–$2.4T AUM) through OCC examinations and implementation of enterprise data governance frameworks aligned to COBIT, NIST, and DAMA DMBOK.",
+      "Designed and delivered multi-phase enablement programs upskilling audit and finance teams on AI-enabled analytics tools, projecting ~$1.9M ROI impact across a 150-analyst team.",
+      "Built RSM's Automation Center of Excellence — establishing enterprise governance framework, role hierarchy, sandbox-to-production deployment, and technology-enabled audit methodologies.",
       "Built ERP-integrated accounts-payable and billing automation workflows, eliminating manual processing backlogs and improving payment timeliness by 40%.",
-      "Architected Snowflake + Power BI modernization programs for financial-services clients managing assets ranging from $50B to $2.4T, delivering executive-ready reporting layers.",
-      "Designed and deployed semantic reporting layers and Azure Data Factory pipelines supporting multi-source data consolidation for regulatory and operational use cases.",
+      "Managed strategic vendor relationships, enterprise licensing, and partnership management including ownership of the firm's Alteryx partnership.",
       "Pioneered MCP-enabled development workflows with Claude and VS Code, accelerating internal team delivery velocity and documentation quality.",
-      "Developed AI-assisted RFP response system using modular workflow orchestration, cutting proposal turnaround from 5 days to under 2 days.",
-      "Supported major federal consent-order and OCC examination responses, coordinating governance, controls remediation, and data-quality workstreams.",
       "Evaluated and applied local LLM tooling (Ollama, LM Studio) for offline workflow experimentation and air-gapped client environments."
     ],
     "industries": [
@@ -33,43 +37,55 @@
       "Snowflake",
       "Azure",
       "Azure Data Factory",
-      "SQL",
-      "Claude",
+      "Azure Document Intelligence",
+      "SQL / T-SQL",
+      "Python",
+      "Claude / Claude Code",
       "VS Code",
       "Microsoft Copilot Studio",
+      "Boomi iPaaS",
+      "Boomi AgentStudio",
       "Ollama",
       "LM Studio",
       "Postman",
       "MCP Server Integrations",
       "Power Automate",
-      "Boomi"
+      "BGE-M3 embeddings",
+      "Mistral OCR"
     ],
     "regulations_frameworks": [
       "OCC examinations",
       "SOX readiness",
       "HIPAA pricing transparency",
       "Federal consent orders",
+      "COBIT 2019",
+      "NIST CSF",
+      "DAMA DMBOK",
       "Enterprise governance & controls"
     ],
     "source_status": "resume_verified_latest_plus_client_facing_enrichment",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on_and_team_led",
     "confidence": "high",
-    "last_updated": "2026-05-19"
+    "last_updated": "2026-05-22"
   },
   {
     "id": "role_bigfour_b_2015_2020",
     "company": "Verity & Partners LLP",
     "title": "Manager – Digital Accelerator & Audit",
-    "client_facing_title": "Manager, Digital Transformation & Risk Advisory",
+    "client_facing_title": "Manager, Risk Advisory Services",
     "start_date": "2015-11",
     "end_date": "2020-04",
     "location": "New York, NY",
-    "summary": "Managed internal audit, IT risk assessment, issue validation, and automation-oriented delivery for banking, asset management, and education sector clients. Led a cross-functional team of 8 while overseeing IT governance, data governance, security, business continuity, and vendor risk advisory workstreams.",
+    "summary": "Managed internal audit, IT risk assessment, regulatory compliance, and automation-oriented delivery for banking, asset management, and healthcare clients. Led cross-functional teams of 6–8 while overseeing IT governance, data governance, information security, business continuity, and vendor risk advisory workstreams. Built and delivered Alteryx-based automation solutions and served as a bridge between audit practitioners and technology delivery.",
     "highlights": [
-      "Developed IT risk assessment methodologies aligned to NIST, ISO 27001, and COBIT 2019 frameworks, adopted as firm-standard templates across the practice.",
+      "Managed Internal Audit functions for large bank and asset management firms — performing IT risk assessments, audit planning, fieldwork, and reporting across NIST, COBIT, and ISO frameworks.",
+      "Developed IT risk assessment methodology utilizing NIST, ISO, and COBIT frameworks, including risk libraries spanning Network, Operating System, Database, Cloud Security, Business Continuity, Third-Party Risk Management, and Vulnerability Management domains — adopted as firm-standard templates.",
+      "Led SOX readiness engagements enhancing data architecture with ITGC controls for change management and access review compliance at major financial institutions.",
+      "Managed regulatory compliance engagements including OCC examination support, issue validations, and remediation verification for large banking clients.",
+      "Executed audits across IT Governance, Data Governance, Information Security, Business Continuity & Disaster Recovery, Application Security, Vulnerability Management, SDLC, and Network Perimeter domains.",
       "Built Alteryx-based automation workflows reducing audit testing cycle time by ~30% and improving budget performance on fixed-fee engagements.",
-      "Led IT governance, data governance, cybersecurity, BCP, and vendor risk reviews for Tier 1 banking and asset-management clients.",
+      "Delivered data quality, profiling, and migration projects for healthcare, government, and financial services clients, increasing data quality by 25%+.",
       "Achieved over 20% delivery efficiency gains through structured resource planning, standardized workpaper templates, and exception-focused testing approaches.",
       "Managed relationships with C-suite and board-level stakeholders, presenting findings and remediation roadmaps for critical control gaps.",
       "Supervised and mentored a team of 6–8 senior and staff associates across simultaneous engagements."
@@ -77,40 +93,46 @@
     "industries": [
       "Banking",
       "Asset Management",
+      "Healthcare",
       "Education"
     ],
     "tools_platforms": [
       "Alteryx",
       "UiPath",
       "Tableau",
-      "ServiceNow GRC"
+      "ServiceNow GRC",
+      "SQL"
     ],
     "regulations_frameworks": [
       "NIST CSF",
       "ISO 27001",
       "COBIT 2019",
       "SOX",
-      "FFIEC"
+      "FFIEC",
+      "OCC examination frameworks"
     ],
-    "source_status": "resume_verified_legacy",
+    "source_status": "resume_verified_all_three",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on_and_team_led",
     "confidence": "high",
-    "last_updated": "2026-05-19"
+    "last_updated": "2026-05-22"
   },
   {
     "id": "role_bigfour_a_2013_2015",
     "company": "Calloway & Grant (Big Four Affiliate)",
     "title": "Senior IT Auditor",
-    "client_facing_title": "Senior IT Audit & Risk Associate",
+    "client_facing_title": "Senior Associate, IT Risk Advisory",
     "start_date": "2013-06",
     "end_date": "2015-10",
     "location": "New York, NY",
-    "summary": "Performed IT general controls, SOX, SOC 1 & 2, and application-control testing for major financial-services, insurance, and global exchange environments. Delivered audit work across ERP, database, infrastructure, and identity-management platforms.",
+    "summary": "Performed IT general controls, SOX, SOC 1 & 2, and application-control testing for major financial-services, insurance, and global exchange environments including the New York Stock Exchange, global banks, and ADT. Delivered audit work across ERP, database, infrastructure, and identity-management platforms at PCAOB-compliant standards.",
     "highlights": [
-      "Executed ITGC and application control testing across Oracle, SQL Server, PeopleSoft, and Hyperion environments for publicly traded financial institutions.",
+      "Executed ITGC and application control testing across Oracle, SQL Server, PeopleSoft, Oracle E-Business Suite, and Hyperion environments for publicly traded financial institutions.",
       "Supported SOC 1 (SSAE 18) and SOC 2 Type II reporting for global custodians and exchanges, ensuring PCAOB-compliant workpaper standards.",
+      "Conducted vendor risk assessments including reviews of governance policies and controls surrounding data privacy, confidentiality, security, availability, and processing integrity.",
+      "Assessed design and operating effectiveness of Data Lake and Data Warehouse controls including data dictionary governance, privileged access management, encryption, and disaster recovery testing.",
       "Led testing of identity and access management, change management, and incident response controls for critical trading and settlement systems.",
+      "Worked across enterprise platforms including Oracle, SQL Server, AWS, Linux, Unix, PeopleSoft, Oracle E-Business Suite, and Hyperion environments.",
       "Mentored 3 staff associates on structured ITGC testing methodology and documentation standards."
     ],
     "industries": [
@@ -124,10 +146,11 @@
       "MySQL",
       "Sybase",
       "PeopleSoft",
+      "Oracle E-Business Suite",
       "Hyperion",
       "AWS",
       "Linux",
-      "Unix/AIX",
+      "Unix / AIX",
       "Imperva"
     ],
     "regulations_frameworks": [
@@ -137,11 +160,11 @@
       "SOC 2",
       "PCAOB"
     ],
-    "source_status": "resume_verified_legacy",
+    "source_status": "resume_verified_all_three",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on",
     "confidence": "high",
-    "last_updated": "2026-05-19"
+    "last_updated": "2026-05-22"
   },
   {
     "id": "role_advisory_intern_2011_2013",
@@ -150,10 +173,11 @@
     "start_date": "2011-11",
     "end_date": "2013-05",
     "location": "New York, NY",
-    "summary": "Started as an intern and was converted to full-time staff, supporting operational and technology risk reviews across banking, technology, energy, and produce distribution environments. Gained early hands-on exposure to ERP audit, infrastructure review, and compliance documentation.",
+    "summary": "Started as a nine-month full-time internship and converted to full-time staff, supporting operational and technology risk reviews across banking, technology, energy, and distribution environments. Gained early hands-on exposure to ERP audit, infrastructure review, and compliance documentation at the start of the professional IT audit career.",
     "highlights": [
       "Completed IT audit support work across Great Plains, JD Edwards, Oracle Financials, and legacy AS/400 (OS400) environments.",
       "Conducted risk interviews and walkthroughs for banking and energy sector clients under senior supervision.",
+      "Developed foundational audit documentation skills including workpaper structuring, control narratives, and evidence organization.",
       "Converted to full-time associate after demonstrating strong documentation quality and client presence during internship."
     ],
     "industries": [
@@ -166,14 +190,14 @@
       "Great Plains",
       "JD Edwards",
       "Oracle Financials",
-      "OS400"
+      "OS400 / AS400"
     ],
     "regulations_frameworks": [],
     "source_status": "resume_verified_legacy",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on",
     "confidence": "medium",
-    "last_updated": "2026-05-19"
+    "last_updated": "2026-05-22"
   },
   {
     "id": "role_government_2009_2011",
@@ -182,25 +206,94 @@
     "start_date": "2009-05",
     "end_date": "2011-10",
     "location": "Philadelphia, PA",
-    "summary": "Audited individual and business tax returns in a high-volume compliance environment, applying federal and state tax codes and building early analytical discipline in a structured government regulatory setting.",
+    "summary": "Audited individual and business tax returns in a high-volume government compliance environment, applying federal tax code and developing early analytical and automation instincts. Simultaneously pursued a Master's degree in Accounting during this period.",
     "highlights": [
       "Reviewed and resolved approximately 300 tax returns annually across individual and small-business filers.",
+      "Developed an automated calculation process for the Adoption Credit using internal tools — reducing error rates and manual calculation time significantly. Recognized with an Employee of the Month award for this initiative.",
+      "Applied deep reading of IRS publications and code provisions to resolve complex compliance questions with accuracy and consistency.",
       "Identified compliance gaps and coordinated resolution with taxpayers and their representatives.",
-      "Developed strong documentation and regulatory interpretation skills foundational to later audit career."
+      "Developed strong documentation, regulatory interpretation, and process discipline foundational to later Big Four audit career.",
+      "Pursued and completed Master's degree in Accounting concurrently while working full-time."
     ],
     "industries": [
       "Government",
       "Regulatory Compliance"
     ],
-    "tools_platforms": [],
+    "tools_platforms": [
+      "Internal IRS compliance systems",
+      "Early automation tooling"
+    ],
     "regulations_frameworks": [
-      "Federal tax code",
+      "Federal Internal Revenue Code",
       "State tax regulations"
     ],
-    "source_status": "resume_verified_legacy",
+    "source_status": "resume_verified_legacy_plus_narrative",
     "public_safe": true,
     "implemented_or_conceptual": "hands_on",
     "confidence": "high",
-    "last_updated": "2026-05-19"
+    "last_updated": "2026-05-22"
+  },
+  {
+    "id": "role_bloomberg_data_2008_2009",
+    "company": "Frontier Data Services (Bloomberg Terminal Data Project)",
+    "title": "Data Entry Analyst – Financial Data Extraction",
+    "start_date": "2008-06",
+    "end_date": "2009-04",
+    "location": "New Jersey",
+    "summary": "Worked on a financial data capture project supporting Bloomberg terminal data enrichment, extracting and entering structured financial data from public company 10-K filings into Bloomberg's financial data systems. This experience provided early foundational exposure to structured financial data, data integrity standards, and the importance of accuracy in financial reporting.",
+    "highlights": [
+      "Extracted and structured financial statement data from public company 10-K SEC filings for ingestion into Bloomberg terminal systems.",
+      "Maintained high data accuracy standards in a structured, high-volume data entry environment.",
+      "Developed early appreciation for data quality, data integrity, and structured financial reporting — foundational to later governance and analytics career.",
+      "Gained first professional exposure to how structured financial data powers capital markets analytics."
+    ],
+    "industries": [
+      "Financial Data",
+      "Capital Markets"
+    ],
+    "tools_platforms": [
+      "Bloomberg data systems",
+      "Structured data entry platforms"
+    ],
+    "regulations_frameworks": [
+      "SEC 10-K filing standards"
+    ],
+    "source_status": "narrative_verified",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on",
+    "confidence": "medium",
+    "last_updated": "2026-05-22"
+  },
+  {
+    "id": "role_early_career_business",
+    "company": "Various (Early Career & Entrepreneurial)",
+    "title": "Sales, Customer Service & Self-Employed Business Owner",
+    "start_date": "2002-01",
+    "end_date": "2008-05",
+    "location": "New York / New Jersey",
+    "summary": "Prior to the professional technology career, built a strong foundation in business operations, sales, customer engagement, and entrepreneurship through a series of diverse roles. These experiences — though not technology-specific — shaped the communication skills, business acumen, process thinking, and resilience that underpin the current professional career.",
+    "highlights": [
+      "Founded and operated Tuition Painters, a seasonal residential painting business — managing customer acquisition, project pricing, crew hiring, payroll, scheduling, and quality control.",
+      "Worked in banking as a Customer Service Representative, then as a Mortgage Broker, helping customers navigate loan products, underwriting requirements, and mortgage documentation.",
+      "Worked as a used car salesperson, developing negotiation skills, deal structuring, and automotive industry knowledge.",
+      "Held positions in the food service and hospitality industry (ARAMARK, nursing home kitchen) developing work ethic, composure under pressure, and customer-facing communication.",
+      "Conducted telemarketing for charitable organizations, honing telephone communication, persistence, and persuasion skills.",
+      "These diverse early experiences directly inform the ability to connect with clients across all levels — from frontline staff to executives — and to understand how organizations of all sizes actually operate."
+    ],
+    "industries": [
+      "Banking",
+      "Real Estate / Mortgage",
+      "Automotive",
+      "Food Service",
+      "Entrepreneurship"
+    ],
+    "tools_platforms": [],
+    "regulations_frameworks": [],
+    "source_status": "narrative_verified",
+    "public_safe": true,
+    "implemented_or_conceptual": "hands_on",
+    "confidence": "high",
+    "last_updated": "2026-05-22",
+    "notes": "This role is not technology-focused. Include for context when discussing career arc, resilience, and communication skills — not for technology or audit positioning."
   }
 ]

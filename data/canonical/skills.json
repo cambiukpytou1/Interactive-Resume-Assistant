@@ -7,20 +7,27 @@
     {"name": "Multi-agent orchestration", "level": "strong", "status": "hands_on_internal", "source_status": "seed_plus_client_facing"},
     {"name": "MCP server integration", "level": "strong", "status": "hands_on", "source_status": "latest_resume_plus_seed"},
     {"name": "Local LLM tooling (Ollama, LM Studio)", "level": "working", "status": "evaluated_and_applied", "source_status": "latest_resume_plus_seed"},
-    {"name": "Embeddings & semantic matching", "level": "working", "status": "hands_on_internal", "source_status": "seed"},
+    {"name": "Embeddings & semantic matching (BGE-M3)", "level": "working", "status": "hands_on_internal", "source_status": "client_facing_resume"},
     {"name": "Claude & Claude Code", "level": "strong", "status": "hands_on", "source_status": "latest_resume_plus_seed"},
-    {"name": "Microsoft Copilot Studio", "level": "working", "status": "hands_on", "source_status": "latest_resume"}
+    {"name": "Microsoft Copilot Studio", "level": "working", "status": "hands_on", "source_status": "latest_resume"},
+    {"name": "AI Audit Agent design & enablement", "level": "working", "status": "hands_on_internal", "source_status": "citi_resume"},
+    {"name": "Boomi AgentStudio", "level": "working", "status": "hands_on", "source_status": "citi_resume"},
+    {"name": "Azure Document Intelligence", "level": "working", "status": "hands_on", "source_status": "citi_resume"},
+    {"name": "Python", "level": "working", "status": "hands_on", "source_status": "resumes_all_three"}
   ],
   "analytics_and_data": [
     {"name": "Alteryx (Advanced Designer)", "level": "advanced", "status": "hands_on", "source_status": "resumes_and_certification"},
     {"name": "Power BI", "level": "working", "status": "hands_on", "source_status": "resumes"},
     {"name": "Snowflake", "level": "working", "status": "hands_on", "source_status": "resumes"},
-    {"name": "SQL", "level": "working", "status": "hands_on", "source_status": "resumes_and_seed"},
+    {"name": "Tableau", "level": "working", "status": "hands_on", "source_status": "legacy_resumes"},
+    {"name": "SQL / T-SQL", "level": "working", "status": "hands_on", "source_status": "resumes_and_seed"},
     {"name": "Azure / Azure Data Factory", "level": "working", "status": "hands_on", "source_status": "resumes"},
     {"name": "Power Automate", "level": "working", "status": "hands_on", "source_status": "resumes"},
     {"name": "Data migration strategy", "level": "strong", "status": "hands_on_and_team_led", "source_status": "latest_resume_plus_seed"},
     {"name": "Semantic reporting layers", "level": "working", "status": "hands_on", "source_status": "latest_resume"},
-    {"name": "Data quality & validation frameworks", "level": "strong", "status": "hands_on", "source_status": "latest_resume_plus_seed"}
+    {"name": "Data quality & validation frameworks", "level": "strong", "status": "hands_on", "source_status": "latest_resume_plus_seed"},
+    {"name": "Financial data extraction (SEC 10-K)", "level": "foundational", "status": "early_career", "source_status": "narrative"},
+    {"name": "ML/AutoML advisory", "level": "working", "status": "advisory_depth", "source_status": "citi_resume"}
   ],
   "integration_and_platforms": [
     {"name": "Boomi (integration workflows)", "level": "working", "status": "hands_on", "source_status": "client_facing_and_seed"},
@@ -51,9 +58,11 @@
     "CISA – Certified Information Systems Auditor (2017)",
     "CRISC – Certified in Risk and Information Systems Control (2018)",
     "Advanced Alteryx Designer Certification (2019)",
-    "Business Analyst Nanodegree",
-    "M.S. Accounting – Walden University (2014, GPA 4.0)",
-    "B.S. Accounting – Rider University (2007)"
+    "Business Analyst Nanodegree (Udacity)",
+    "Digital Skills: Data Wrangling, Data Visualization, Data Insights",
+    "M.S. Accounting – Walden University (GPA 4.0)",
+    "B.S. Accounting – Rider University",
+    "Pursuing: CISSP, CSX-P, AI Nanodegree"
   ],
   "explicit_boundaries": [
     "Do not present I.Y. as a deep ML engineer or model-training expert.",
