@@ -16,10 +16,12 @@
     }
   },
   "experience_summary": {
+    "total_years_professional_experience": 16,
     "total_years_enterprise_experience": 16,
     "workflow_automation_and_orchestration_years": "4–5",
     "applied_ai_workflow_experience": "~18 months",
-    "big_four_years": 9
+    "big_four_years": 9,
+    "early_career_context": "Prior to entering the technology and audit profession, built foundational business acumen through entrepreneurship (painting business), banking (customer service, mortgage brokerage), financial data (Bloomberg 10-K extraction project), automotive sales, and food service. These experiences shaped the client communication, business process thinking, and operational discipline that distinguishes the current director-level career."
   },
   "current_positioning": [
     "Enterprise AI Workflow Leader",
@@ -34,7 +36,9 @@
     "Workflow Automation / Orchestration Leader",
     "Analytics Modernization Lead",
     "Governance-Aware AI Strategy Lead",
-    "Head of Intelligent Automation"
+    "Head of Intelligent Automation",
+    "AI Audit Enablement Leader",
+    "Chief Data & Analytics Officer (Emerging)"
   ],
   "core_identity": [
     "Bridges governance, enterprise operations, analytics modernization, and applied AI — uniquely suited to organizations operationalizing practical AI in regulated environments",
@@ -53,5 +57,6 @@
   "implemented_or_conceptual": "hands_on_and_team_led",
   "confidence": "high",
   "last_updated": "2026-05-19",
-  "notes": "Built from the latest enterprise-AI-styled resume, legacy resumes for historical context, user-provided seed knowledge, and client-facing enrichment."
+  "career_arc": "Started in diverse early-career roles (entrepreneurship, banking, financial data, sales) that built business fundamentals. Entered the professional technology track via the IRS as a Revenue Examiner (where the first automation was built), then moved into IT audit at a smaller advisory firm, then Big Four (EY equivalent, then PwC equivalent), and ultimately into a Director-level role at a national professional services firm leading AI, analytics, and digital transformation.",
+  "notes": "Built from three resume versions, user narrative, and client-facing enrichment. Updated May 2026 with full career history including early pre-audit roles, Bloomberg data project, IRS innovation award, and complete Big Four timeline."
 }

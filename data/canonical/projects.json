@@ -1,13 +1,26 @@
 [
   {
+    "id": "project_openbrain",
+    "name": "OpenBrain – Personal Knowledge Operating System",
+    "category": "Personal / Applied AI",
+    "summary": "Designed and built a self-hosted personal knowledge operating system that captures observations, decisions, and source material from AI coding sessions, stores them in PostgreSQL with pgvector for semantic search, and exposes recall through a FastAPI service and an MCP gateway — enabling AI clients like Claude to remember and retrieve context across sessions. Architected with a layered service model (MCP → FastAPI → pgvector), brain_id isolation for future multi-user support, and a database-backed job queue for background ingestion and freshness review.",
+    "tools": ["FastAPI", "PostgreSQL + pgvector", "FastMCP", "Python", "Docker Compose", "Alembic", "OpenRouter embeddings", "MCP (Model Context Protocol)"],
+    "outcome": "Running on a personal NAS; enables persistent AI memory and semantic recall across Claude Code, Claude Desktop, and custom agent workflows",
+    "implementation_status": "implemented_personal",
+    "public_safe": true,
+    "source_status": "github_private_repo_verified",
+    "confidence": "high",
+    "notes": "Personal side project demonstrating hands-on applied AI systems design — MCP integration, vector search, and self-hosted LLM tooling outside of client work."
+  },
+  {
     "id": "project_migrateiq",
     "name": "MigrateIQ – AI-Assisted Migration Accelerator",
     "category": "AI-Assisted Migration",
-    "summary": "Built an internal AI-powered migration accelerator that uses semantic schema matching, LLM-assisted field disambiguation, analyst review workflows, and SQL export generation to compress data migration discovery from weeks to days. Applied across multiple ERP-to-cloud migration engagements.",
-    "tools": ["LLM-assisted matching", "Semantic embeddings", "SQL", "Python scripting support"],
+    "summary": "Architected an AI-powered data migration accelerator using BGE-M3 semantic embeddings and LLM-assisted field disambiguation with auditable decision trails stored in SQL Server. Reduces manual schema mapping effort by 80–85% while maintaining full traceability, confidence scoring, and analyst review workflows. Applied across multiple ERP-to-cloud migration engagements.",
+    "tools": ["BGE-M3 semantic embeddings", "LLM-assisted disambiguation", "SQL Server", "Python", "auditable decision trails"],
     "implementation_status": "implemented_internal_client_safe_summary",
     "public_safe": true,
-    "source_status": "client_facing_enrichment",
+    "source_status": "all_three_resumes",
     "confidence": "high"
   },
   {
@@ -162,6 +175,74 @@
     "implementation_status": "implemented",
     "public_safe": true,
     "source_status": "client_facing_enrichment",
+    "confidence": "high"
+  },
+  {
+    "id": "project_aviation_ai_agents",
+    "name": "Private Aviation AI Agent Control Tower",
+    "category": "Production AI Deployment",
+    "summary": "Led Boomi integration delivery and AI agent deployment for a private aviation group. Stood up five production AI agents on an Agent Control Tower with role-based access controls (RBAC), hallucination detection mechanisms, full audit trails, and observability dashboards. This represented a governed, enterprise-grade multi-agent deployment in a regulated operational environment.",
+    "tools": ["Boomi iPaaS", "Boomi AgentStudio", "Agent Control Tower", "RBAC design", "observability dashboards", "hallucination detection"],
+    "implementation_status": "implemented_production",
+    "public_safe": true,
+    "source_status": "citi_resume_verified",
+    "confidence": "high"
+  },
+  {
+    "id": "project_pdf_extraction_snowflake",
+    "name": "Tiered PDF Extraction Pipeline – Financial Settlements Firm",
+    "category": "AI-Powered Data Ingestion",
+    "summary": "Designed and delivered an AI-powered tiered document ingestion pipeline for a financial settlements firm. The system applies layered extraction strategies — LLM prompt optimization as the primary layer, Azure Document Intelligence as the secondary layer, and Mistral OCR as a fallback — feeding structured data into Snowflake for analytics and reporting. Built to handle complex financial document formats with high accuracy and traceability.",
+    "tools": ["LLM prompt optimization", "Azure Document Intelligence", "Mistral OCR", "Snowflake", "Python", "SQL"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "citi_resume_verified",
+    "confidence": "high"
+  },
+  {
+    "id": "project_audit_ai_enablement",
+    "name": "AI Audit Agent Design & Audit Team Enablement ($1.9M ROI)",
+    "category": "AI Audit Enablement",
+    "summary": "Partnered with Audit & Assurance leaders to design and prototype AI Audit Agents applying agentic AI patterns to enhance audit planning, evidence gathering, and risk assessment workflows. Designed and delivered multi-phase enablement programs upskilling a 150-analyst audit and finance team on AI-enabled analytics tools. The program projected a ~$1.9M ROI impact through efficiency gains, reduced manual review time, and accelerated evidence preparation.",
+    "tools": ["Agentic AI design patterns", "Alteryx", "Power BI", "AI workflow orchestration", "training program design"],
+    "outcome": "~$1.9M projected ROI across 150-analyst team; reduced evidence prep and audit planning cycle times",
+    "implementation_status": "implemented_and_team_led",
+    "public_safe": true,
+    "source_status": "citi_resume_verified",
+    "confidence": "high"
+  },
+  {
+    "id": "project_data_lake_controls",
+    "name": "Data Lake & Data Warehouse Controls Assessment",
+    "category": "Governance & Controls",
+    "summary": "Assessed design and operating effectiveness of Data Lake and Data Warehouse controls for major financial services clients. Scope included data dictionary governance, privileged access management, encryption controls, disaster recovery testing, and data lineage validation. Delivered findings and remediation roadmaps integrated into the client's internal audit program.",
+    "tools": ["Data Lake governance frameworks", "controls testing methodology", "SQL", "access management review"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "citi_resume_verified",
+    "confidence": "high"
+  },
+  {
+    "id": "project_irs_adoption_credit_automation",
+    "name": "IRS Adoption Credit Calculation Automation",
+    "category": "Early Career Process Automation",
+    "summary": "While working as a Revenue Examiner at the Federal Revenue Authority, developed an automated process for calculating the Adoption Credit — a complex tax credit requiring multi-step verification across tax return data. The automation reduced calculation errors and manual effort significantly, earning Employee of the Month recognition. This was the first professional automation initiative, predating the formal technology and analytics career by several years.",
+    "tools": ["Internal government compliance systems", "early automation tooling"],
+    "implementation_status": "implemented",
+    "public_safe": true,
+    "source_status": "narrative_verified",
+    "confidence": "high",
+    "notes": "Early career project — relevant for demonstrating that the instinct to automate and build process efficiency has been consistent throughout the full career arc, not just the recent technology-focused years."
+  },
+  {
+    "id": "project_alteryx_governance_framework",
+    "name": "Enterprise Alteryx Server Governance Framework",
+    "category": "Governance & Platform Management",
+    "summary": "Built and operated the firm's enterprise Alteryx Server governance framework including role hierarchy design, Active Directory group management, service-account-only production publishing controls, and sandbox-to-production deployment process. Established the governance model that scaled the firm's Alteryx practice across multiple teams and client engagements.",
+    "tools": ["Alteryx Server", "Active Directory", "role hierarchy design", "sandbox-to-production workflow"],
+    "implementation_status": "implemented_internal",
+    "public_safe": true,
+    "source_status": "all_three_resumes",
     "confidence": "high"
   }
 ]
