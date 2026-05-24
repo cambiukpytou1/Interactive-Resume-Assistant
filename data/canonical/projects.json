@@ -1,5 +1,18 @@
 [
   {
+    "id": "project_openbrain",
+    "name": "OpenBrain – Personal Knowledge Operating System",
+    "category": "Personal / Applied AI",
+    "summary": "Designed and built a self-hosted personal knowledge operating system that captures observations, decisions, and source material from AI coding sessions, stores them in PostgreSQL with pgvector for semantic search, and exposes recall through a FastAPI service and an MCP gateway — enabling AI clients like Claude to remember and retrieve context across sessions. Architected with a layered service model (MCP → FastAPI → pgvector), brain_id isolation for future multi-user support, and a database-backed job queue for background ingestion and freshness review.",
+    "tools": ["FastAPI", "PostgreSQL + pgvector", "FastMCP", "Python", "Docker Compose", "Alembic", "OpenRouter embeddings", "MCP (Model Context Protocol)"],
+    "outcome": "Running on a personal NAS; enables persistent AI memory and semantic recall across Claude Code, Claude Desktop, and custom agent workflows",
+    "implementation_status": "implemented_personal",
+    "public_safe": true,
+    "source_status": "github_private_repo_verified",
+    "confidence": "high",
+    "notes": "Personal side project demonstrating hands-on applied AI systems design — MCP integration, vector search, and self-hosted LLM tooling outside of client work."
+  },
+  {
     "id": "project_migrateiq",
     "name": "MigrateIQ – AI-Assisted Migration Accelerator",
     "category": "AI-Assisted Migration",
